@@ -1,0 +1,2 @@
+include uniparser_classical_armenian/data/*.txt
+include uniparser_classical_armenian/data/*.cg3
