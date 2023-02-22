@@ -20,6 +20,16 @@ def collect_lemmata(dirName):
     return lemmata, lexrules
 
 
+def collect_paradigms(dirName):
+    paradigms = ''
+    for fname in os.listdir(dirName):
+        if fname.endswith('.txt') and fname.startswith('xcl-paradigms'):
+            f = open(os.path.join(dirName, fname), 'r', encoding='utf-8-sig')
+            paradigms += f.read() + '\n'
+            f.close()
+    return paradigms
+
+
 def prepare_files():
     """
     Put all the lemmata to lexemes.txt. Put all the lexical
@@ -27,15 +37,11 @@ def prepare_files():
     Put all grammar files to ../uniparser_classical_armenian/data/.
     """
     lemmata, lexrules = collect_lemmata('.')
-    fOutLemmata = open('uniparser_classical_armenian/data/lexemes.txt', 'w', encoding='utf-8')
-    fOutLemmata.write(lemmata)
-    fOutLemmata.close()
-    fInParadigms = open('paradigms.txt', 'r', encoding='utf-8-sig')
-    paradigms = fInParadigms.read()
-    fInParadigms.close()
-    fOutParadigms = open('uniparser_classical_armenian/data/paradigms.txt', 'w', encoding='utf-8')
-    fOutParadigms.write(paradigms)
-    fOutParadigms.close()
+    paradigms = collect_paradigms('.')
+    with open('uniparser_classical_armenian/data/lexemes.txt', 'w', encoding='utf-8') as fOutLemmata:
+        fOutLemmata.write(lemmata)
+    with open('uniparser_classical_armenian/data/paradigms.txt', 'w', encoding='utf-8') as fOutParadigms:
+        fOutParadigms.write(paradigms)
     # fOutLexrules = open('uniparser_classical_armenian/data/lex_rules.txt', 'w', encoding='utf-8')
     # fOutLexrules.write(lexrules)
     # fOutLexrules.close()
