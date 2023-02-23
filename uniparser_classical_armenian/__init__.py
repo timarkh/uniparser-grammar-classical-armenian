@@ -12,6 +12,7 @@ class ClassicalArmenianAnalyzer(Analyzer):
         """
         super().__init__(verbose_grammar=verbose_grammar)
         self.dirName = 'uniparser_classical_armenian.data'
+        # self.glossing = False
         with as_file(files(self.dirName) / 'paradigms.txt') as self.paradigmFile,\
              as_file(files(self.dirName) / 'lexemes.txt') as self.lexFile,\
              as_file(files(self.dirName) / 'lex_rules.txt') as self.lexRulesFile,\

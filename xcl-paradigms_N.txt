@@ -2,6 +2,11 @@
  -flex: .
   gramm: 
 
+-paradigm: def
+ -flex: .
+  gramm: 
+ -flex: .ն
+  gramm: def
 
 -paradigm: poss_def
  -flex: .
@@ -12,676 +17,704 @@
   gramm: poss1
  -flex: .դ
   gramm: poss2
+
+-paradigm: prep
+ -flex: 0.<.>
+  gramm: 
+ -flex: զ.<.>
+  gramm: LEX:զ:PREP;trans_en=direct object marker;trans_fr=marqueur de l'objet direct
+  regex-prev-gramm: .*\b(acc|abl|dat|loc|ins).*
+ -flex: յ.<.>
+  gramm: LEX:ի:PREP;trans_en=in;trans_fr=en
+  regex-prev-gramm: .*\b(acc|abl|loc).*
+ -flex: ց.<.>
+  gramm: LEX:ց:PREP;trans_en=up to;trans_fr=jusqu'à
+  regex-prev-gramm: .*\bacc.*
+ paradigm: poss_def
+
+-paradigm: prep_pro
+ -flex: 0.<.>
+  gramm: 
+ -flex: զ.<.>
+  gramm: LEX:զ:PREP;trans_en=direct object marker;trans_fr=marqueur de l'objet direct
+  regex-gramm: .*\b(acc|abl|dat|loc|ins).*
+ -flex: յ.<.>
+  gramm: LEX:ի:PREP;trans_en=in;trans_fr=en
+  regex-gramm: .*\b(acc|abl|loc).*
+ -flex: ց.<.>
+  gramm: LEX:ց:PREP;trans_en=up to;trans_fr=jusqu'à
+  regex-gramm: .*\bacc.*
+ paradigm: poss_def
  
 
 -paradigm: N1.1.1
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,gen
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,dat
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,loc
- -flex: .է<.>
+ -flex: <.>.է<.>
   gramm: sg,abl
- -flex: .իւ<.>
+ -flex: <.>.իւ<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .ից<.>
+ -flex: <.>.ից<.>
   gramm: pl,gen
- -flex: .ից<.>
+ -flex: <.>.ից<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ից<.>
+ -flex: <.>.ից<.>
   gramm: pl,abl
- -flex: .իւք<.>
+ -flex: <.>.իւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.1.2
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ի<.>
+ -flex: <1><.>.ի<.>
   gramm: sg,gen
- -flex: <1>.ի<.>
+ -flex: <1><.>.ի<.>
   gramm: sg,dat
- -flex: <1>.ի<.>
+ -flex: <1><.>.ի<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <1>.իւ<.>
+ -flex: <1><.>.իւ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ից<.>
+ -flex: <1><.>.ից<.>
   gramm: pl,gen
- -flex: <1>.ից<.>
+ -flex: <1><.>.ից<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ից<.>
+ -flex: <1><.>.ից<.>
   gramm: pl,abl
- -flex: <1>.իւք<.>
+ -flex: <1><.>.իւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.1.5
- -flex: <0,1>.<.>
+ -flex: <0,1><.>.<.>
   gramm: sg,nom
- -flex: <0,1>.<.>//<0,1>զ.<.>
+ -flex: <0,1><.>.<.>
   gramm: sg,acc
- -flex: <2,3>.ի<.>
+ -flex: <2,3><.>.ի<.>
   gramm: sg,gen
- -flex: <2,3>.ի<.>
+ -flex: <2,3><.>.ի<.>
   gramm: sg,dat
- -flex: <2,3>.ի<.>
+ -flex: <2,3><.>.ի<.>
   gramm: sg,loc
- -flex: <2,3>.է<.>
+ -flex: <2,3><.>.է<.>
   gramm: sg,abl
- -flex: <2,3>.իւ<.>
+ -flex: <2,3><.>.իւ<.>
   gramm: sg,ins
- -flex: <0,1>.ք<.>
+ -flex: <0,1><.>.ք<.>
   gramm: pl,nom
- -flex: <0,1>.ս<.>//<0,1>զ.ս<.>
+ -flex: <0,1><.>.ս<.>
   gramm: pl,acc
- -flex: <2,3>.ից<.>//<0,1>.ց<.>
+ -flex: <2,3><.>.ից<.>//<0,1><.>.ց<.>
   gramm: pl,gen
- -flex: <2,3>.ից<.>//<0,1>.ց<.>
+ -flex: <2,3><.>.ից<.>//<0,1><.>.ց<.>
   gramm: pl,dat
- -flex: <0,1>.ս<.>
+ -flex: <0,1><.>.ս<.>
   gramm: pl,loc
- -flex: <2,3>.ից<.>//<0,1>.ց<.>
+ -flex: <2,3><.>.ից<.>//<0,1><.>.ց<.>
   gramm: pl,abl
- -flex: <2,3>.իւք<.>
+ -flex: <2,3><.>.իւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N1.2.1
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,gen
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,dat
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,loc
- -flex: .է<.>//.ուէ<.>
+ -flex: <.>.է<.>//<.>.ուէ<.>
   gramm: sg,abl
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .ուց<.>
+ -flex: <.>.ուց<.>
   gramm: pl,gen
- -flex: .ուց<.>
+ -flex: <.>.ուց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ուց<.>
+ -flex: <.>.ուց<.>
   gramm: pl,abl
- -flex: .ուք<.>
+ -flex: <.>.ուք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.2.2
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ու<.>
+ -flex: <1><.>.ու<.>
   gramm: sg,gen
- -flex: <1>.ու<.>
+ -flex: <1><.>.ու<.>
   gramm: sg,dat
- -flex: <1>.ու<.>
+ -flex: <1><.>.ու<.>
   gramm: sg,loc
- -flex: <1>.է<.>//<1>.ուէ<.>
+ -flex: <1><.>.է<.>//<1><.>.ուէ<.>
   gramm: sg,abl
- -flex: <1>.ու<.>
+ -flex: <1><.>.ու<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ուց<.>
+ -flex: <1><.>.ուց<.>
   gramm: pl,gen
- -flex: <1>.ուց<.>
+ -flex: <1><.>.ուց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ուց<.>
+ -flex: <1><.>.ուց<.>
   gramm: pl,abl
- -flex: <1>.ուք<.>
+ -flex: <1><.>.ուք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N1.3.1
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,gen
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,dat
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,loc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,abl
- -flex: .ով<.>
+ -flex: <.>.ով<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,gen
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,abl
- -flex: .ովք<.>
+ -flex: <.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.3.2
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ոյ<.>//.ոջ<.>
+ -flex: <.>.ոյ<.>//<.>.ոջ<.>
   gramm: sg,gen
- -flex: .ոյ<.>//.ում<.>
+ -flex: <.>.ոյ<.>//<.>.ում<.>
   gramm: sg,dat
- -flex: .ոյ<.>//.ում<.>
+ -flex: <.>.ոյ<.>//<.>.ում<.>
   gramm: sg,loc
- -flex: .ոյ<.>//.ոջէ<.>
+ -flex: <.>.ոյ<.>//<.>.ոջէ<.>
   gramm: sg,abl
- -flex: .ով<.>
+ -flex: <.>.ով<.>
   gramm: sg,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.3.3
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,gen
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,dat
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,loc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,abl
- -flex: <1>.ով<.>
+ -flex: <1><.>.ով<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,gen
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,abl
- -flex: <1>.ովք<.>
+ -flex: <1><.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.3.5a
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,gen
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,dat
- -flex: <1>.եան<.>
+ -flex: <1><.>.եան<.>
   gramm: sg,loc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,abl
- -flex: <1>.ով<.>
+ -flex: <1><.>.ով<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,gen
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,abl
- -flex: <1>.ովք<.>
+ -flex: <1><.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.3.7
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,nom
- -flex: .ի<.>//զ.ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,acc
- -flex: .ւոյ<.>
+ -flex: <.>.ւոյ<.>
   gramm: sg,gen
- -flex: .ւոյ<.>
+ -flex: <.>.ւոյ<.>
   gramm: sg,dat
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,loc
- -flex: .ւոյ<.>
+ -flex: <.>.ւոյ<.>
   gramm: sg,abl
- -flex: .ւով<.>
+ -flex: <.>.ւով<.>
   gramm: sg,ins
- -flex: .իք<.>
+ -flex: <.>.իք<.>
   gramm: pl,nom
- -flex: .իս<.>//զ.իս<.>
+ -flex: <.>.իս<.>
   gramm: pl,acc
- -flex: .ւոց<.>
+ -flex: <.>.ւոց<.>
   gramm: pl,gen
- -flex: .ւոց<.>
+ -flex: <.>.ւոց<.>
   gramm: pl,dat
- -flex: .իս<.>
+ -flex: <.>.իս<.>
   gramm: pl,loc
- -flex: .ւոց<.>
+ -flex: <.>.ւոց<.>
   gramm: pl,abl
- -flex: .ւովք<.>
+ -flex: <.>.ւովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 
 
 -paradigm: N1.4.1
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .այ<.>
+ -flex: <.>.այ<.>
   gramm: sg,gen
- -flex: .այ<.>
+ -flex: <.>.այ<.>
   gramm: sg,dat
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,loc
- -flex: .այ<.>
+ -flex: <.>.այ<.>
   gramm: sg,abl
- -flex: .աւ<.>
+ -flex: <.>.աւ<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,gen
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,abl
- -flex: .աւք<.>
+ -flex: <.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.4.2
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.այ<.>
+ -flex: <1><.>.այ<.>
   gramm: sg,gen
- -flex: <1>.այ<.>
+ -flex: <1><.>.այ<.>
   gramm: sg,dat
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,loc
- -flex: <1>.այ<.>
+ -flex: <1><.>.այ<.>
   gramm: sg,abl
- -flex: <1>.աւ<.>
+ -flex: <1><.>.աւ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.աւք<.>
+ -flex: <1><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 
 
 -paradigm: N1.5.1
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,gen
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,dat
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,loc
- -flex: .է<.>
+ -flex: <.>.է<.>
   gramm: sg,abl
- -flex: .աւ<.>
+ -flex: <.>.աւ<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,gen
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,abl
- -flex: .աւք<.>
+ -flex: <.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.5.2
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ի<.>
+ -flex: <1><.>.ի<.>
   gramm: sg,gen
- -flex: <1>.ի<.>
+ -flex: <1><.>.ի<.>
   gramm: sg,dat
- -flex: <1>.ի<.>
+ -flex: <1><.>.ի<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <1>.աւ<.>
+ -flex: <1><.>.աւ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.աւք<.>
+ -flex: <1><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.5.3
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.աւք<.>
+ -flex: <1><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.5.10
- -flex: <0,1>.<.>
+ -flex: <0,1><.>.<.>
   gramm: sg,nom
- -flex: <0,1>.<.>//<0,1>զ.<.>
+ -flex: <0,1><.>.<.>
   gramm: sg,acc
- -flex: <0>.ի<.>
+ -flex: <0><.>.ի<.>
   gramm: sg,gen
- -flex: <0>.ի<.>
+ -flex: <0><.>.ի<.>
   gramm: sg,dat
- -flex: <0>.ի<.>
+ -flex: <0><.>.ի<.>
   gramm: sg,loc
- -flex: <0>.է<.>
+ -flex: <0><.>.է<.>
   gramm: sg,abl
- -flex: <0>.աւ<.>
+ -flex: <0><.>.աւ<.>
   gramm: sg,ins
- -flex: <0,1>.ք<.>
+ -flex: <0,1><.>.ք<.>
   gramm: pl,nom
- -flex: <0,1>.ս<.>//<0,1>զ.ս<.>
+ -flex: <0,1><.>.ս<.>
   gramm: pl,acc
- -flex: <0>.աց<.>
+ -flex: <0><.>.աց<.>
   gramm: pl,gen
- -flex: <0>.աց<.>
+ -flex: <0><.>.աց<.>
   gramm: pl,dat
- -flex: <0,1>.ս<.>
+ -flex: <0,1><.>.ս<.>
   gramm: pl,loc
- -flex: <0>.աց<.>
+ -flex: <0><.>.աց<.>
   gramm: pl,abl
- -flex: <0>.աւք<.>
+ -flex: <0><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 
 -paradigm: N1.6.1a
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,nom
- -flex: .ի<.>//զ.ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,acc
- -flex: .ւոյ<.>
+ -flex: <.>.ւոյ<.>
   gramm: sg,gen
- -flex: .ւոյ<.>
+ -flex: <.>.ւոյ<.>
   gramm: sg,dat
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,loc
- -flex: .ւոյ<.>
+ -flex: <.>.ւոյ<.>
   gramm: sg,abl
- -flex: .եաւ<.>
+ -flex: <.>.եաւ<.>
   gramm: sg,ins
- -flex: .իք<.>
+ -flex: <.>.իք<.>
   gramm: pl,nom
- -flex: .իս<.>//զ.իս<.>
+ -flex: <.>.իս<.>
   gramm: pl,acc
- -flex: .եաց<.>
+ -flex: <.>.եաց<.>
   gramm: pl,gen
- -flex: .եաց<.>
+ -flex: <.>.եաց<.>
   gramm: pl,dat
- -flex: .իս<.>
+ -flex: <.>.իս<.>
   gramm: pl,loc
- -flex: .եաց<.>
+ -flex: <.>.եաց<.>
   gramm: pl,abl
- -flex: .եաւք<.>//.եօք<.>
+ -flex: <.>.եաւք<.>//<.>.եօք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.6.1b
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,nom
- -flex: .ի<.>//զ.ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,acc
- -flex: .ւոյ<.>
+ -flex: <.>.ւոյ<.>
   gramm: sg,gen
- -flex: .ւոյ<.>//.ւոջ<.>//.ում<.>
+ -flex: <.>.ւոյ<.>//<.>.ւոջ<.>//<.>.ում<.>
   gramm: sg,dat
- -flex: .ւոյ<.>//.ւոջ<.>//.ում<.>
+ -flex: <.>.ւոյ<.>//<.>.ւոջ<.>//<.>.ում<.>
   gramm: sg,loc
- -flex: .ւոյ<.>//.ւոջէ<.>
+ -flex: <.>.ւոյ<.>//<.>.ւոջէ<.>
   gramm: sg,abl
- -flex: .եաւ<.>
+ -flex: <.>.եաւ<.>
   gramm: sg,ins
- -flex: .իք<.>
+ -flex: <.>.իք<.>
   gramm: pl,nom
- -flex: .իս<.>//զ.իս<.>
+ -flex: <.>.իս<.>
   gramm: pl,acc
- -flex: .եաց<.>
+ -flex: <.>.եաց<.>
   gramm: pl,gen
- -flex: .եաց<.>
+ -flex: <.>.եաց<.>
   gramm: pl,dat
- -flex: .իս<.>
+ -flex: <.>.իս<.>
   gramm: pl,loc
- -flex: .եաց<.>
+ -flex: <.>.եաց<.>
   gramm: pl,abl
- -flex: .եաւք<.>//.եօք<.>
+ -flex: <.>.եաւք<.>//<.>.եօք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.6.2
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,gen
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,dat
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,loc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,abl
- -flex: .ով<.>
+ -flex: <.>.ով<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,gen
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,abl
- -flex: .ովք<.>
+ -flex: <.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.6.3
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,gen
- -flex: .ում<.>
+ -flex: <.>.ում<.>
   gramm: sg,dat
- -flex: .ում<.>
+ -flex: <.>.ում<.>
   gramm: sg,loc
- -flex: .մէ<.>
+ -flex: <.>.մէ<.>
   gramm: sg,abl
- -flex: .ով<.>
+ -flex: <.>.ով<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,gen
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ոց<.>
+ -flex: <.>.ոց<.>
   gramm: pl,abl
- -flex: .ովք<.>
+ -flex: <.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.6.4
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,gen
- -flex: <1>.ում<.>
+ -flex: <1><.>.ում<.>
   gramm: sg,dat
- -flex: <1>.ում<.>
+ -flex: <1><.>.ում<.>
   gramm: sg,loc
- -flex: <1>.մէ<.>
+ -flex: <1><.>.մէ<.>
   gramm: sg,abl
- -flex: <1>.ով<.>
+ -flex: <1><.>.ով<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,gen
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,abl
- -flex: <1>.ովք<.>
+ -flex: <1><.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N1.6.5
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,gen
- -flex: .ում<.>
+ -flex: <.>.ում<.>
   gramm: sg,dat
- -flex: .ում<.>
+ -flex: <.>.ում<.>
   gramm: sg,loc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,abl
- -flex: .ով<.>
+ -flex: <.>.ով<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .ոց<.>//.ց<.>
+ -flex: <.>.ոց<.>//<.>.ց<.>
   gramm: pl,gen
- -flex: .ոց<.>//.ց<.>
+ -flex: <.>.ոց<.>//<.>.ց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ոց<.>//.ց<.>
+ -flex: <.>.ոց<.>//<.>.ց<.>
   gramm: pl,abl
- -flex: .ովք<.>
+ -flex: <.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
@@ -689,1234 +722,1234 @@
 
 
 -paradigm: N2.1.0
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <0>.ի<.>
+ -flex: <0><.>.ի<.>
   gramm: sg,gen
- -flex: <0>.ի<.>
+ -flex: <0><.>.ի<.>
   gramm: sg,dat
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <0>.բ<.>
+ -flex: <0><.>.բ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <0>.ց<.>
+ -flex: <0><.>.ց<.>
   gramm: pl,gen
- -flex: <0>.ց<.>
+ -flex: <0><.>.ց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <0>.ց<.>
+ -flex: <0><.>.ց<.>
   gramm: pl,abl
- -flex: <0>.բք<.>
+ -flex: <0><.>.բք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 
 
 -paradigm: N2.1.1
- -flex: <0>.ն<.>
+ -flex: <0><.>.ն<.>
   gramm: sg,nom
- -flex: <0>.ն<.>//<0>զ.ն<.>
+ -flex: <0><.>.ն<.>
   gramm: sg,acc
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,gen
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,dat
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,loc
- -flex: <1>.անէ<.>
+ -flex: <1><.>.անէ<.>
   gramm: sg,abl
- -flex: <1>.ամբ<.>
+ -flex: <1><.>.ամբ<.>
   gramm: sg,ins
- -flex: <1>.անք<.>
+ -flex: <1><.>.անք<.>
   gramm: pl,nom
- -flex: <1>.անս<.>//<1>զ.անս<.>
+ -flex: <1><.>.անս<.>
   gramm: pl,acc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,gen
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,dat
- -flex: <1>.անս<.>
+ -flex: <1><.>.անս<.>
   gramm: pl,loc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,abl
- -flex: <1>.ամբք<.>
+ -flex: <1><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 -paradigm: N2.3.1
- -flex: <0>.ն<.>
+ -flex: <0><.>.ն<.>
   gramm: sg,nom
- -flex: <0>.ն<.>//<0>զ.ն<.>
+ -flex: <0><.>.ն<.>
   gramm: sg,acc
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,gen
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,dat
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,loc
- -flex: <1>.անէ<.>
+ -flex: <1><.>.անէ<.>
   gramm: sg,abl
- -flex: <1>.ամբ<.>
+ -flex: <1><.>.ամբ<.>
   gramm: sg,ins
- -flex: <1>.ունք<.>
+ -flex: <1><.>.ունք<.>
   gramm: pl,nom
- -flex: <1>.ունս<.>//<1>զ.ունս<.>
+ -flex: <1><.>.ունս<.>
   gramm: pl,acc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,gen
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,dat
- -flex: <1>.ունս<.>
+ -flex: <1><.>.ունս<.>
   gramm: pl,loc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,abl
- -flex: <1>.ամբք<.>
+ -flex: <1><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.3.1c
- -flex: .ն<.>
+ -flex: <.>.ն<.>
   gramm: pl,nom
- -flex: .ն<.>//<1>զ.ն<.>
+ -flex: <.>.ն<.>
   gramm: pl,acc
- -flex: .ունց<.>
+ -flex: <.>.ունց<.>
   gramm: pl,gen
- -flex: .ունց<.>
+ -flex: <.>.ունց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ունց<.>
+ -flex: <.>.ունց<.>
   gramm: pl,abl
- -flex: .ումբք<.>
+ -flex: <.>.ումբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.3.2
- -flex: .ռն<.>
+ -flex: <.>.ռն<.>
   gramm: sg,nom
- -flex: .ռն<.>//զ.ռն<.>
+ -flex: <.>.ռն<.>
   gramm: sg,acc
- -flex: .րան<.>
+ -flex: <.>.րան<.>
   gramm: sg,gen
- -flex: .րան<.>
+ -flex: <.>.րան<.>
   gramm: sg,dat
- -flex: .րան<.>
+ -flex: <.>.րան<.>
   gramm: sg,loc
- -flex: .րանէ<.>
+ -flex: <.>.րանէ<.>
   gramm: sg,abl
- -flex: .րամբ<.>
+ -flex: <.>.րամբ<.>
   gramm: sg,ins
- -flex: .րունք<.>
+ -flex: <.>.րունք<.>
   gramm: pl,nom
- -flex: .րունս<.>//զ.րունս<.>
+ -flex: <.>.րունս<.>
   gramm: pl,acc
- -flex: .րանց<.>
+ -flex: <.>.րանց<.>
   gramm: pl,gen
- -flex: .րանց<.>
+ -flex: <.>.րանց<.>
   gramm: pl,dat
- -flex: .րունս<.>
+ -flex: <.>.րունս<.>
   gramm: pl,loc
- -flex: .րանց<.>
+ -flex: <.>.րանց<.>
   gramm: pl,abl
- -flex: .րամբք<.>
+ -flex: <.>.րամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.3.3
- -flex: .ուն<.>
+ -flex: <.>.ուն<.>
   gramm: sg,nom
- -flex: .ուն<.>//զ.ուն<.>
+ -flex: <.>.ուն<.>
   gramm: sg,acc
- -flex: .ան<.>
+ -flex: <.>.ան<.>
   gramm: sg,gen
- -flex: .ան<.>
+ -flex: <.>.ան<.>
   gramm: sg,dat
- -flex: .ան<.>
+ -flex: <.>.ան<.>
   gramm: sg,loc
- -flex: .անէ<.>
+ -flex: <.>.անէ<.>
   gramm: sg,abl
- -flex: .ամբ<.>
+ -flex: <.>.ամբ<.>
   gramm: sg,ins
- -flex: .ունք<.>
+ -flex: <.>.ունք<.>
   gramm: pl,nom
- -flex: .ունս<.>//զ.ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,acc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,gen
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,dat
- -flex: .ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,loc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,abl
- -flex: .ամբք<.>
+ -flex: <.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.4.1
- -flex: .ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,nom
- -flex: .ն<.>//զ.ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,acc
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,gen
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,dat
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,loc
- -flex: .նէ<.>
+ -flex: <.>.նէ<.>
   gramm: sg,abl
- -flex: .ամբ<.>
+ -flex: <.>.ամբ<.>
   gramm: sg,ins
- -flex: .ինք<.>
+ -flex: <.>.ինք<.>
   gramm: pl,nom
- -flex: .ինս<.>//զ.ինս<.>
+ -flex: <.>.ինս<.>
   gramm: pl,acc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,gen
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,dat
- -flex: .ինս<.>
+ -flex: <.>.ինս<.>
   gramm: pl,loc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,abl
- -flex: .ամբք<.>
+ -flex: <.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.4.1a
- -flex: .ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,nom
- -flex: .ն<.>//զ.ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,acc
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,gen
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,dat
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,loc
- -flex: .նէ<.>
+ -flex: <.>.նէ<.>
   gramm: sg,abl
- -flex: .ամբ<.>
+ -flex: <.>.ամբ<.>
   gramm: sg,ins
- -flex: .ունք<.>
+ -flex: <.>.ունք<.>
   gramm: pl,nom
- -flex: .ունս<.>//զ.ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,acc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,gen
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,dat
- -flex: .ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,loc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,abl
- -flex: .ամբք<.>
+ -flex: <.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.4.1b
- -flex: <0>.ն<.>
+ -flex: <0><.>.ն<.>
   gramm: sg,nom
- -flex: <0>.ն<.>//<0>զ.ն<.>
+ -flex: <0><.>.ն<.>
   gramm: sg,acc
- -flex: <1>.ին<.>
+ -flex: <1><.>.ին<.>
   gramm: sg,gen
- -flex: <1>.ին<.>
+ -flex: <1><.>.ին<.>
   gramm: sg,dat
- -flex: <1>.ին<.>
+ -flex: <1><.>.ին<.>
   gramm: sg,loc
- -flex: <1>.նէ<.>
+ -flex: <1><.>.նէ<.>
   gramm: sg,abl
- -flex: <1>.ամբ<.>
+ -flex: <1><.>.ամբ<.>
   gramm: sg,ins
- -flex: <1>.ինք<.>
+ -flex: <1><.>.ինք<.>
   gramm: pl,nom
- -flex: <1>.ինս<.>//<1>զ.ինս<.>
+ -flex: <1><.>.ինս<.>
   gramm: pl,acc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,gen
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,dat
- -flex: <1>.ինս<.>
+ -flex: <1><.>.ինս<.>
   gramm: pl,loc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,abl
- -flex: <1>.ամբք<.>
+ -flex: <1><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.4.1c
- -flex: <0>.ռն<.>
+ -flex: <0><.>.ռն<.>
   gramm: sg,nom
- -flex: <0>.ռն<.>//<0>զ.ռն<.>
+ -flex: <0><.>.ռն<.>
   gramm: sg,acc
- -flex: <1>.րին<.>
+ -flex: <1><.>.րին<.>
   gramm: sg,gen
- -flex: <1>.րին<.>
+ -flex: <1><.>.րին<.>
   gramm: sg,dat
- -flex: <1>.րին<.>
+ -flex: <1><.>.րին<.>
   gramm: sg,loc
- -flex: <1>.ռնէ<.>
+ -flex: <1><.>.ռնէ<.>
   gramm: sg,abl
- -flex: <1>.րամբ<.>
+ -flex: <1><.>.րամբ<.>
   gramm: sg,ins
- -flex: <1>.րինք<.>
+ -flex: <1><.>.րինք<.>
   gramm: pl,nom
- -flex: <1>.րինս<.>//<1>զ.րինս<.>
+ -flex: <1><.>.րինս<.>
   gramm: pl,acc
- -flex: <1>.րանց<.>
+ -flex: <1><.>.րանց<.>
   gramm: pl,gen
- -flex: <1>.րանց<.>
+ -flex: <1><.>.րանց<.>
   gramm: pl,dat
- -flex: <1>.րինս<.>
+ -flex: <1><.>.րինս<.>
   gramm: pl,loc
- -flex: <1>.րանց<.>
+ -flex: <1><.>.րանց<.>
   gramm: pl,abl
- -flex: <1>.րամբք<.>
+ -flex: <1><.>.րամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.5.1
- -flex: .ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,nom
- -flex: .ն<.>//զ.ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,acc
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,gen
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,dat
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,loc
- -flex: .ենէ<.>
+ -flex: <.>.ենէ<.>
   gramm: sg,abl
- -flex: .եամբ<.>
+ -flex: <.>.եամբ<.>
   gramm: sg,ins
- -flex: .եանք<.>
+ -flex: <.>.եանք<.>
   gramm: pl,nom
- -flex: .եանս<.>//զ.եանս<.>
+ -flex: <.>.եանս<.>
   gramm: pl,acc
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,gen
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,dat
- -flex: .եանս<.>
+ -flex: <.>.եանս<.>
   gramm: pl,loc
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,abl
- -flex: .եամբք<.>
+ -flex: <.>.եամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.6.1
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,nom
- -flex: .ին<.>//զ.ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,acc
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,gen
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,dat
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,loc
- -flex: .ենէ<.>
+ -flex: <.>.ենէ<.>
   gramm: sg,abl
- -flex: .եամբ<.>
+ -flex: <.>.եամբ<.>
   gramm: sg,ins
- -flex: .ինք<.>
+ -flex: <.>.ինք<.>
   gramm: pl,nom
- -flex: .ինս<.>//զ.ինս<.>
+ -flex: <.>.ինս<.>
   gramm: pl,acc
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,gen
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,dat
- -flex: .ինս<.>
+ -flex: <.>.ինս<.>
   gramm: pl,loc
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,abl
- -flex: .եամբք<.>
+ -flex: <.>.եամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.7.1
- -flex: .իւն<.>
+ -flex: <.>.իւն<.>
   gramm: sg,nom
- -flex: .իւն<.>//զ.իւն<.>
+ -flex: <.>.իւն<.>
   gramm: sg,acc
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,gen
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,dat
- -flex: .եան<.>
+ -flex: <.>.եան<.>
   gramm: sg,loc
- -flex: .ենէ<.>
+ -flex: <.>.ենէ<.>
   gramm: sg,abl
- -flex: .եամբ<.>
+ -flex: <.>.եամբ<.>
   gramm: sg,ins
- -flex: .իւնք<.>
+ -flex: <.>.իւնք<.>
   gramm: pl,nom
- -flex: .իւնս<.>//զ.իւնս<.>
+ -flex: <.>.իւնս<.>
   gramm: pl,acc
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,gen
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,dat
- -flex: .իւնս<.>
+ -flex: <.>.իւնս<.>
   gramm: pl,loc
- -flex: .եանց<.>
+ -flex: <.>.եանց<.>
   gramm: pl,abl
- -flex: .եամբք<.>
+ -flex: <.>.եամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.8.1
- -flex: .իւն<.>
+ -flex: <.>.իւն<.>
   gramm: sg,nom
- -flex: .իւն<.>//զ.իւն<.>
+ -flex: <.>.իւն<.>
   gramm: sg,acc
- -flex: .ման<.>
+ -flex: <.>.ման<.>
   gramm: sg,gen
- -flex: .ման<.>
+ -flex: <.>.ման<.>
   gramm: sg,dat
- -flex: .ման<.>
+ -flex: <.>.ման<.>
   gramm: sg,loc
- -flex: .մանէ<.>
+ -flex: <.>.մանէ<.>
   gramm: sg,abl
- -flex: .մամբ<.>
+ -flex: <.>.մամբ<.>
   gramm: sg,ins
- -flex: .իւնք<.>
+ -flex: <.>.իւնք<.>
   gramm: pl,nom
- -flex: .իւնս<.>//զ.իւնս<.>
+ -flex: <.>.իւնս<.>
   gramm: pl,acc
- -flex: .մանց<.>
+ -flex: <.>.մանց<.>
   gramm: pl,gen
- -flex: .մանց<.>
+ -flex: <.>.մանց<.>
   gramm: pl,dat
- -flex: .իւնս<.>
+ -flex: <.>.իւնս<.>
   gramm: pl,loc
- -flex: .մանց<.>
+ -flex: <.>.մանց<.>
   gramm: pl,abl
- -flex: .մամբք<.>
+ -flex: <.>.մամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.9.1
- -flex: .աւն<.>//.օն<.>
+ -flex: <.>.աւն<.>//<.>.օն<.>
   gramm: sg,nom
- -flex: .աւն<.>//զ.աւն<.>//.օն<.>//զ.օն<.>
+ -flex: <.>.աւն<.>//<.>.օն<.>
   gramm: sg,acc
- -flex: .աման<.>
+ -flex: <.>.աման<.>
   gramm: sg,gen
- -flex: .աման<.>
+ -flex: <.>.աման<.>
   gramm: sg,dat
- -flex: .աման<.>
+ -flex: <.>.աման<.>
   gramm: sg,loc
- -flex: .ամանէ<.>
+ -flex: <.>.ամանէ<.>
   gramm: sg,abl
- -flex: .ամամբ<.>
+ -flex: <.>.ամամբ<.>
   gramm: sg,ins
- -flex: .ամունք<.>
+ -flex: <.>.ամունք<.>
   gramm: pl,nom
- -flex: .ամունս<.>//զ.ամունս<.>
+ -flex: <.>.ամունս<.>
   gramm: pl,acc
- -flex: .ամանց<.>
+ -flex: <.>.ամանց<.>
   gramm: pl,gen
- -flex: .ամանց<.>
+ -flex: <.>.ամանց<.>
   gramm: pl,dat
- -flex: .ամունս<.>
+ -flex: <.>.ամունս<.>
   gramm: pl,loc
- -flex: .ամանց<.>
+ -flex: <.>.ամանց<.>
   gramm: pl,abl
- -flex: .ամամբք<.>
+ -flex: <.>.ամամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N2.10.1
- -flex: .քին<.>//.քեան<.>
+ -flex: <.>.քին<.>//<.>.քեան<.>
   gramm: pl,nom
- -flex: .սին<.>//զ.սին<.>//.սեան<.>//զ.սեան<.>
+ -flex: <.>.սին<.>//<.>.սեան<.>
   gramm: pl,acc
- -flex: .ցւնց<.>
+ -flex: <.>.ցւնց<.>
   gramm: pl,gen
- -flex: .ցւնց<.>
+ -flex: <.>.ցւնց<.>
   gramm: pl,dat
- -flex: .սին<.>//.սեան<.>
+ -flex: <.>.սին<.>//<.>.սեան<.>
   gramm: pl,loc
- -flex: .ցւնց<.>
+ -flex: <.>.ցւնց<.>
   gramm: pl,abl
- -flex: .քումբք<.>
+ -flex: <.>.քումբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N3.1
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,gen
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,dat
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,loc
- -flex: <1>.անէ<.>
+ -flex: <1><.>.անէ<.>
   gramm: sg,abl
- -flex: <1>.ամբ<.>
+ -flex: <1><.>.ամբ<.>
   gramm: sg,ins
- -flex: <1>.ունք<.>
+ -flex: <1><.>.ունք<.>
   gramm: pl,nom
- -flex: <1>.ունս<.>//<1>զ.ունս<.>
+ -flex: <1><.>.ունս<.>
   gramm: pl,acc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,gen
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,dat
- -flex: <1>.ունս<.>
+ -flex: <1><.>.ունս<.>
   gramm: pl,loc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,abl
- -flex: <1>.ամբք<.>
+ -flex: <1><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.10
- -flex: .ր<.>
+ -flex: <.>.ր<.>
   gramm: sg,nom
- -flex: .ր<.>//զ.ր<.>
+ -flex: <.>.ր<.>
   gramm: sg,acc
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,gen
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,dat
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,loc
- -flex: .ուէ<.>
+ -flex: <.>.ուէ<.>
   gramm: sg,abl
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,ins
- -flex: .ունք<.>
+ -flex: <.>.ունք<.>
   gramm: pl,nom
- -flex: .ունս<.>//զ.ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,acc
- -flex: .ունց<.>
+ -flex: <.>.ունց<.>
   gramm: pl,gen
- -flex: .ունց<.>
+ -flex: <.>.ունց<.>
   gramm: pl,dat
- -flex: .ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,loc
- -flex: .ունց<.>
+ -flex: <.>.ունց<.>
   gramm: pl,abl
- -flex: .ումբք<.>
+ -flex: <.>.ումբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.11
- -flex: .ր<.>
+ -flex: <.>.ր<.>
   gramm: sg,nom
- -flex: .ր<.>//զ.ր<.>
+ -flex: <.>.ր<.>
   gramm: sg,acc
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,gen
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,dat
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,loc
- -flex: .ուէ<.>//.է<.>
+ -flex: <.>.ուէ<.>//<.>.է<.>
   gramm: sg,abl
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,ins
- -flex: .ունք<.>
+ -flex: <.>.ունք<.>
   gramm: pl,nom
- -flex: .ունս<.>//զ.ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,acc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,gen
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,dat
- -flex: .ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,loc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,abl
- -flex: .ումբք<.>
+ -flex: <.>.ումբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.12
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,gen
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,dat
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,loc
- -flex: .ոյ<.>
+ -flex: <.>.ոյ<.>
   gramm: sg,abl
- -flex: .աւ<.>
+ -flex: <.>.աւ<.>
   gramm: sg,ins
- -flex: .անք<.>
+ -flex: <.>.անք<.>
   gramm: pl,nom
- -flex: .անս<.>//զ.անս<.>
+ -flex: <.>.անս<.>
   gramm: pl,acc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,gen
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,dat
- -flex: .անս<.>
+ -flex: <.>.անս<.>
   gramm: pl,loc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,abl
- -flex: .աւք<.>
+ -flex: <.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.13
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,gen
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,dat
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,loc
- -flex: .ուէ<.>//.է<.>
+ -flex: <.>.ուէ<.>//<.>.է<.>
   gramm: sg,abl
- -flex: .ու<.>
+ -flex: <.>.ու<.>
   gramm: sg,ins
- -flex: .ունք<.>
+ -flex: <.>.ունք<.>
   gramm: pl,nom
- -flex: .ունս<.>//զ.ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,acc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,gen
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,dat
- -flex: .ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,loc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,abl
- -flex: .ամբք<.>
+ -flex: <.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.14
- -flex: .ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,nom
- -flex: .ն<.>//զ.ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,acc
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,gen
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,dat
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,loc
- -flex: .անէ<.>
+ -flex: <.>.անէ<.>
   gramm: sg,abl
- -flex: .ամբ<.>
+ -flex: <.>.ամբ<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,gen
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,abl
- -flex: .ամբք<.>//.աւք<.>
+ -flex: <.>.ամբք<.>//<.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.15
- -flex: .ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,nom
- -flex: .ն<.>//զ.ն<.>
+ -flex: <.>.ն<.>
   gramm: sg,acc
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,gen
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,dat
- -flex: .ին<.>
+ -flex: <.>.ին<.>
   gramm: sg,loc
- -flex: .անէ<.>
+ -flex: <.>.անէ<.>
   gramm: sg,abl
- -flex: .ամբ<.>
+ -flex: <.>.ամբ<.>
   gramm: sg,ins
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .ից<.>
+ -flex: <.>.ից<.>
   gramm: pl,gen
- -flex: .ից<.>
+ -flex: <.>.ից<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ից<.>
+ -flex: <.>.ից<.>
   gramm: pl,abl
- -flex: .իւք<.>
+ -flex: <.>.իւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.16
- -flex: .ուռն<.>
+ -flex: <.>.ուռն<.>
   gramm: sg,nom
- -flex: .ուռն<.>//զ.ուռն<.>
+ -flex: <.>.ուռն<.>
   gramm: sg,acc
- -flex: .րան<.>
+ -flex: <.>.րան<.>
   gramm: sg,gen
- -flex: .րան<.>
+ -flex: <.>.րան<.>
   gramm: sg,dat
- -flex: .րան<.>
+ -flex: <.>.րան<.>
   gramm: sg,loc
- -flex: .րանէ<.>
+ -flex: <.>.րանէ<.>
   gramm: sg,abl
- -flex: .րամբ<.>
+ -flex: <.>.րամբ<.>
   gramm: sg,ins
- -flex: .րունք<.>//.ուրք<.>
+ -flex: <.>.րունք<.>//<.>.ուրք<.>
   gramm: pl,nom
- -flex: .րունս<.>//.ուրս<.>//զ.րունս<.>//զ.ուրս<.>
+ -flex: <.>.րունս<.>//<.>.ուրս<.>
   gramm: pl,acc
- -flex: .րանց<.>//.րաց<.>
+ -flex: <.>.րանց<.>//<.>.րաց<.>
   gramm: pl,gen
- -flex: .րանց<.>//.րաց<.>
+ -flex: <.>.րանց<.>//<.>.րաց<.>
   gramm: pl,dat
- -flex: .րունս<.>//.ուրս<.>
+ -flex: <.>.րունս<.>//<.>.ուրս<.>
   gramm: pl,loc
- -flex: .րանց<.>//.րաց<.>
+ -flex: <.>.րանց<.>//<.>.րաց<.>
   gramm: pl,abl
- -flex: .րամբք<.>//.րաւք<.>
+ -flex: <.>.րամբք<.>//<.>.րաւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.17
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <1>.բ<.>
+ -flex: <1><.>.բ<.>
   gramm: sg,ins
- -flex: <1>.ք<.>
+ -flex: <1><.>.ք<.>
   gramm: pl,nom
- -flex: <1>.ս<.>//<1>զ.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,dat
- -flex: <1>.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.բք<.>//<1>.աւք<.>
+ -flex: <1><.>.բք<.>//<1><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.18
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <1>.բ<.>
+ -flex: <1><.>.բ<.>
   gramm: sg,ins
- -flex: <1>.ք<.>
+ -flex: <1><.>.ք<.>
   gramm: pl,nom
- -flex: <1>.ս<.>//<1>զ.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,dat
- -flex: <1>.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.բք<.>//<1>.աւք<.>
+ -flex: <1><.>.բք<.>//<1><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.18b
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,gen
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,dat
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,loc
- -flex: <0>.է<.>
+ -flex: <0><.>.է<.>
   gramm: sg,abl
- -flex: <0>.բ<.>
+ -flex: <0><.>.բ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <0>.ց<.>//<0>.աց<.>
+ -flex: <0><.>.ց<.>//<0><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,dat
- -flex: <1>.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.բք<.>//<1>.աւք<.>
+ -flex: <1><.>.բք<.>//<1><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.19
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <1>.բ<.>
+ -flex: <1><.>.բ<.>
   gramm: sg,ins
- -flex: <1>.ք<.>//<0>.ք<.>
+ -flex: <1><.>.ք<.>//<0><.>.ք<.>
   gramm: pl,nom
- -flex: <1>.ս<.>//<0>.ս<.>//<1>զ.ս<.>//<0>զ.ս<.>
+ -flex: <1><.>.ս<.>//<0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,gen
- -flex: <0>.ց<.>//<0>.աց<.>
+ -flex: <0><.>.ց<.>//<0><.>.աց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <0>.ց<.>//<0>.աց<.>
+ -flex: <0><.>.ց<.>//<0><.>.աց<.>
   gramm: pl,abl
- -flex: <0>.բք<.>//<0>.աւք<.>
+ -flex: <0><.>.բք<.>//<0><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.1a
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ան<.>
+ -flex: <.>.ան<.>
   gramm: sg,gen
- -flex: .ան<.>
+ -flex: <.>.ան<.>
   gramm: sg,dat
- -flex: .ան<.>
+ -flex: <.>.ան<.>
   gramm: sg,loc
- -flex: .անէ<.>
+ -flex: <.>.անէ<.>
   gramm: sg,abl
- -flex: .ամբ<.>
+ -flex: <.>.ամբ<.>
   gramm: sg,ins
- -flex: .ունք<.>
+ -flex: <.>.ունք<.>
   gramm: pl,nom
- -flex: .ունս<.>//զ.ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,acc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,gen
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,dat
- -flex: .ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,loc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,abl
- -flex: .ամբք<.>
+ -flex: <.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.1b
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,gen
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,dat
- -flex: <1>.ան<.>
+ -flex: <1><.>.ան<.>
   gramm: sg,loc
- -flex: <1>.անէ<.>
+ -flex: <1><.>.անէ<.>
   gramm: sg,abl
- -flex: <1>.ամբ<.>
+ -flex: <1><.>.ամբ<.>
   gramm: sg,ins
- -flex: <1>.ունք<.>
+ -flex: <1><.>.ունք<.>
   gramm: pl,nom
- -flex: <1>.ունս<.>//<1>զ.ունս<.>
+ -flex: <1><.>.ունս<.>
   gramm: pl,acc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,gen
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,dat
- -flex: <1>.ունս<.>
+ -flex: <1><.>.ունս<.>
   gramm: pl,loc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,abl
- -flex: <1>.ամբք<.>
+ -flex: <1><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.2
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.եան<.>
+ -flex: <1><.>.եան<.>
   gramm: sg,gen
- -flex: <1>.եան<.>
+ -flex: <1><.>.եան<.>
   gramm: sg,dat
- -flex: <1>.եան<.>
+ -flex: <1><.>.եան<.>
   gramm: sg,loc
- -flex: <1>.ենէ<.>
+ -flex: <1><.>.ենէ<.>
   gramm: sg,abl
- -flex: <1>.եամբ<.>
+ -flex: <1><.>.եամբ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.եանց<.>
+ -flex: <1><.>.եանց<.>
   gramm: pl,gen
- -flex: <1>.եանց<.>
+ -flex: <1><.>.եանց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.եանց<.>
+ -flex: <1><.>.եանց<.>
   gramm: pl,abl
- -flex: <1>.եամբք<.>
+ -flex: <1><.>.եամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.20
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <1>.բ<.>
+ -flex: <1><.>.բ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ց<.>//<1>.աց<.>
+ -flex: <1><.>.ց<.>//<1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.բք<.>//<1>.աւք<.>
+ -flex: <1><.>.բք<.>//<1><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.3
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.եան<.>
+ -flex: <1><.>.եան<.>
   gramm: sg,gen
- -flex: <1>.եան<.>
+ -flex: <1><.>.եան<.>
   gramm: sg,dat
- -flex: <1>.եան<.>
+ -flex: <1><.>.եան<.>
   gramm: sg,loc
- -flex: <1>.ենէ<.>
+ -flex: <1><.>.ենէ<.>
   gramm: sg,abl
- -flex: <1>.եամբ<.>
+ -flex: <1><.>.եամբ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <0>.ոց<.>
+ -flex: <0><.>.ոց<.>
   gramm: pl,gen
- -flex: <0>.ոց<.>
+ -flex: <0><.>.ոց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <0>.ոց<.>
+ -flex: <0><.>.ոց<.>
   gramm: pl,abl
- -flex: <0>.ովք<.>
+ -flex: <0><.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.4
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,gen
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,dat
- -flex: <0>.<.>//<1>.ի<.>
+ -flex: <0><.>.<.>//<1><.>.ի<.>
   gramm: sg,loc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,abl
- -flex: <1>.ով<.>//<0>.բ<.>
+ -flex: <1><.>.ով<.>//<0><.>.բ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,gen
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ոց<.>
+ -flex: <1><.>.ոց<.>
   gramm: pl,abl
- -flex: <1>.ովք<.>
+ -flex: <1><.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.5
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,gen
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,dat
- -flex: <0>.<.>//<1>.ի<.>
+ -flex: <0><.>.<.>//<1><.>.ի<.>
   gramm: sg,loc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,abl
- -flex: <1>.ով<.>//<0>.բ<.>
+ -flex: <1><.>.ով<.>//<0><.>.բ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- -flex: <0>.ց<.>
+ -flex: <0><.>.ց<.>
   gramm: pl,gen
- -flex: <0>.ց<.>
+ -flex: <0><.>.ց<.>
   gramm: pl,dat
- -flex: <0>.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,loc
- -flex: <0>.ց<.>
+ -flex: <0><.>.ց<.>
   gramm: pl,abl
- -flex: <1>.ովք<.>
+ -flex: <1><.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.6
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,gen
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,dat
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,loc
- -flex: .է<.>
+ -flex: <.>.է<.>
   gramm: sg,abl
- -flex: .իւ<.>
+ -flex: <.>.իւ<.>
   gramm: sg,ins
- -flex: .ինք<.>
+ -flex: <.>.ինք<.>
   gramm: pl,nom
- -flex: .ինս<.>//զ.ինս<.>
+ -flex: <.>.ինս<.>
   gramm: pl,acc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,gen
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,dat
- -flex: .ինս<.>
+ -flex: <.>.ինս<.>
   gramm: pl,loc
- -flex: .անց<.>
+ -flex: <.>.անց<.>
   gramm: pl,abl
- -flex: .ամբք<.>
+ -flex: <.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.7
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,gen
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,dat
- -flex: .ի<.>
+ -flex: <.>.ի<.>
   gramm: sg,loc
- -flex: .է<.>
+ -flex: <.>.է<.>
   gramm: sg,abl
- -flex: .աւ<.>
+ -flex: <.>.աւ<.>
   gramm: sg,ins
- -flex: .ունք<.>
+ -flex: <.>.ունք<.>
   gramm: pl,nom
- -flex: .ունս<.>//զ.ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,acc
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,gen
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,dat
- -flex: .ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,loc
- -flex: .աց<.>
+ -flex: <.>.աց<.>
   gramm: pl,abl
- -flex: .աւք<.>
+ -flex: <.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.8
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ու<.>//.ուան<.>
+ -flex: <.>.ու<.>//<.>.ուան<.>
   gramm: sg,gen
- -flex: .ու<.>//.ուան<.>
+ -flex: <.>.ու<.>//<.>.ուան<.>
   gramm: sg,dat
- -flex: .ու<.>//.ուան<.>
+ -flex: <.>.ու<.>//<.>.ուան<.>
   gramm: sg,loc
- -flex: .ուանէ<.>
+ -flex: <.>.ուանէ<.>
   gramm: sg,abl
- -flex: .ուամբ<.>
+ -flex: <.>.ուամբ<.>
   gramm: sg,ins
- -flex: .ունք<.>
+ -flex: <.>.ունք<.>
   gramm: pl,nom
- -flex: .ունս<.>//զ.ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,acc
- -flex: .ուց<.>//.ուանց<.>
+ -flex: <.>.ուց<.>//<.>.ուանց<.>
   gramm: pl,gen
- -flex: .ուց<.>//.ուանց<.>
+ -flex: <.>.ուց<.>//<.>.ուանց<.>
   gramm: pl,dat
- -flex: .ունս<.>
+ -flex: <.>.ունս<.>
   gramm: pl,loc
- -flex: .ուց<.>//.ուանց<.>
+ -flex: <.>.ուց<.>//<.>.ուանց<.>
   gramm: pl,abl
- -flex: .ուամբք<.>
+ -flex: <.>.ուամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
 -paradigm: N3.9
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ու<.>
+ -flex: <1><.>.ու<.>
   gramm: sg,gen
- -flex: <1>.ու<.>
+ -flex: <1><.>.ու<.>
   gramm: sg,dat
- -flex: <1>.ու<.>
+ -flex: <1><.>.ու<.>
   gramm: sg,loc
- -flex: <1>.ուէ<.>//<1>.<.>
+ -flex: <1><.>.ուէ<.>//<1><.>.<.>
   gramm: sg,abl
- -flex: <1>.ու<.>
+ -flex: <1><.>.ու<.>
   gramm: sg,ins
- -flex: <1>.ունք<.>
+ -flex: <1><.>.ունք<.>
   gramm: pl,nom
- -flex: <1>.ունս<.>//<1>զ.ունս<.>
+ -flex: <1><.>.ունս<.>
   gramm: pl,acc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,gen
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,dat
- -flex: <1>.ունս<.>
+ -flex: <1><.>.ունս<.>
   gramm: pl,loc
- -flex: <1>.անց<.>
+ -flex: <1><.>.անց<.>
   gramm: pl,abl
- -flex: <1>.ամբք<.>
+ -flex: <1><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
@@ -1924,479 +1957,479 @@
 
 
 -paradigm: N4.1
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ն<.>
+ -flex: <1><.>.ն<.>
   gramm: sg,gen
- -flex: <1>.ն<.>
+ -flex: <1><.>.ն<.>
   gramm: sg,dat
- -flex: <1>.ն<.>
+ -flex: <1><.>.ն<.>
   gramm: sg,loc
- -flex: <1>.նէ<.>
+ -flex: <1><.>.նէ<.>
   gramm: sg,abl
- -flex: <2>.ամբ<.>
+ -flex: <2><.>.ամբ<.>
   gramm: sg,ins
- -flex: <2>.ք<.>
+ -flex: <2><.>.ք<.>
   gramm: pl,nom
- -flex: <2>.ս<.>//<2>զ.ս<.>
+ -flex: <2><.>.ս<.>
   gramm: pl,acc
- -flex: <2>.անց<.>
+ -flex: <2><.>.անց<.>
   gramm: pl,gen
- -flex: <2>.անց<.>
+ -flex: <2><.>.անց<.>
   gramm: pl,dat
- -flex: <2>.ս<.>
+ -flex: <2><.>.ս<.>
   gramm: pl,loc
- -flex: <2>.անց<.>
+ -flex: <2><.>.անց<.>
   gramm: pl,abl
- -flex: <2>.ամբք<.>
+ -flex: <2><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.2
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <0>.է<.>
+ -flex: <0><.>.է<.>
   gramm: sg,abl
- -flex: <1>.բ<.>
+ -flex: <1><.>.բ<.>
   gramm: sg,ins
- -flex: <1>.ք<.>
+ -flex: <1><.>.ք<.>
   gramm: pl,nom
- -flex: <1>.ս<.>//<1>զ.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ց<.>
+ -flex: <1><.>.ց<.>
   gramm: pl,gen
- -flex: <1>.ց<.>
+ -flex: <1><.>.ց<.>
   gramm: pl,dat
- -flex: <1>.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ց<.>
+ -flex: <1><.>.ց<.>
   gramm: pl,abl
- -flex: <1>.բք<.>
+ -flex: <1><.>.բք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.3
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <0,1>.է<.>
+ -flex: <0,1><.>.է<.>
   gramm: sg,abl
- -flex: <2>.բ<.>
+ -flex: <2><.>.բ<.>
   gramm: sg,ins
- -flex: <3>.ք<.>
+ -flex: <3><.>.ք<.>
   gramm: pl,nom
- -flex: <3>.ս<.>//<3>զ.ս<.>
+ -flex: <3><.>.ս<.>
   gramm: pl,acc
- -flex: <3>.աց<.>
+ -flex: <3><.>.աց<.>
   gramm: pl,gen
- -flex: <3>.աց<.>
+ -flex: <3><.>.աց<.>
   gramm: pl,dat
- -flex: <3>.ս<.>
+ -flex: <3><.>.ս<.>
   gramm: pl,loc
- -flex: <3>.աց<.>
+ -flex: <3><.>.աց<.>
   gramm: pl,abl
- -flex: <3>.աւք<.>
+ -flex: <3><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.4
- -flex: <0,1>.<.>
+ -flex: <0,1><.>.<.>
   gramm: sg,nom
- -flex: <0,1>.<.>//<0,1>զ.<.>
+ -flex: <0,1><.>.<.>
   gramm: sg,acc
- -flex: <2>.<.>
+ -flex: <2><.>.<.>
   gramm: sg,gen
- -flex: <2>.<.>
+ -flex: <2><.>.<.>
   gramm: sg,dat
- -flex: <1,2>.<.>
+ -flex: <1,2><.>.<.>
   gramm: sg,loc
- -flex: <2>.է<.>
+ -flex: <2><.>.է<.>
   gramm: sg,abl
- -flex: <0>.իւ<.>
+ -flex: <0><.>.իւ<.>
   gramm: sg,ins
- -flex: <0,1>.ք<.>
+ -flex: <0,1><.>.ք<.>
   gramm: pl,nom
- -flex: <0,1>.ս<.>//<0,1>զ.ս<.>
+ -flex: <0,1><.>.ս<.>
   gramm: pl,acc
- -flex: <0>.ից<.>
+ -flex: <0><.>.ից<.>
   gramm: pl,gen
- -flex: <0>.ից<.>
+ -flex: <0><.>.ից<.>
   gramm: pl,dat
- -flex: <0,1>.ս<.>
+ -flex: <0,1><.>.ս<.>
   gramm: pl,loc
- -flex: <0>.ից<.>
+ -flex: <0><.>.ից<.>
   gramm: pl,abl
- -flex: <0>.իւք<.>
+ -flex: <0><.>.իւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.5
- -flex: .ք<.>
+ -flex: <.>.ք<.>
   gramm: pl,nom
- -flex: .ս<.>//զ.ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,acc
- -flex: .ց<.>
+ -flex: <.>.ց<.>
   gramm: pl,gen
- -flex: .ց<.>
+ -flex: <.>.ց<.>
   gramm: pl,dat
- -flex: .ս<.>
+ -flex: <.>.ս<.>
   gramm: pl,loc
- -flex: .ց<.>
+ -flex: <.>.ց<.>
   gramm: pl,abl
- -flex: .աւք<.>
+ -flex: <.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.6
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <1>.ս<.>//<1>զ.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ց<.>
+ -flex: <1><.>.ց<.>
   gramm: pl,gen
- -flex: <1>.ց<.>
+ -flex: <1><.>.ց<.>
   gramm: pl,dat
- -flex: <1>.ս<.>
+ -flex: <1><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ց<.>
+ -flex: <1><.>.ց<.>
   gramm: pl,abl
- -flex: <1>.ւք<.>
+ -flex: <1><.>.ւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.7
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ոջ<.>
+ -flex: <1><.>.ոջ<.>
   gramm: sg,gen
- -flex: <1>.ոջ<.>
+ -flex: <1><.>.ոջ<.>
   gramm: sg,dat
- -flex: <1>.ոջ<.>
+ -flex: <1><.>.ոջ<.>
   gramm: sg,loc
- -flex: <1>.ոջէ<.>
+ -flex: <1><.>.ոջէ<.>
   gramm: sg,abl
- -flex: <1>.աւ<.>//<2>.ամբ<.>
+ -flex: <1><.>.աւ<.>//<2><.>.ամբ<.>
   gramm: sg,ins
- -flex: <2>.այք<.>
+ -flex: <2><.>.այք<.>
   gramm: pl,nom
- -flex: <2>.այս<.>//<2>զ.այս<.>
+ -flex: <2><.>.այս<.>
   gramm: pl,acc
- -flex: <2>.անց<.>
+ -flex: <2><.>.անց<.>
   gramm: pl,gen
- -flex: <2>.անց<.>
+ -flex: <2><.>.անց<.>
   gramm: pl,dat
- -flex: <2>.այս<.>
+ -flex: <2><.>.այս<.>
   gramm: pl,loc
- -flex: <2>.անց<.>
+ -flex: <2><.>.անց<.>
   gramm: pl,abl
- -flex: <2>.ամբք<.>
+ -flex: <2><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.8
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <2>.բ<.>
+ -flex: <2><.>.բ<.>
   gramm: sg,ins
- -flex: <2>.ք<.>
+ -flex: <2><.>.ք<.>
   gramm: pl,nom
- -flex: <2>.ս<.>//<2>զ.ս<.>
+ -flex: <2><.>.ս<.>
   gramm: pl,acc
- -flex: <2>.ց<.>
+ -flex: <2><.>.ց<.>
   gramm: pl,gen
- -flex: <2>.ց<.>
+ -flex: <2><.>.ց<.>
   gramm: pl,dat
- -flex: <2>.ս<.>
+ -flex: <2><.>.ս<.>
   gramm: pl,loc
- -flex: <2>.ց<.>
+ -flex: <2><.>.ց<.>
   gramm: pl,abl
- -flex: <2>.բք<.>
+ -flex: <2><.>.բք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.9
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <0,1>.է<.>
+ -flex: <0,1><.>.է<.>
   gramm: sg,abl
- -flex: <2>.բ<.>
+ -flex: <2><.>.բ<.>
   gramm: sg,ins
- -flex: <3>.ք<.>
+ -flex: <3><.>.ք<.>
   gramm: pl,nom
- -flex: <3>.ս<.>//<3>զ.ս<.>
+ -flex: <3><.>.ս<.>
   gramm: pl,acc
- -flex: <3>.աց<.>
+ -flex: <3><.>.աց<.>
   gramm: pl,gen
- -flex: <3>.աց<.>
+ -flex: <3><.>.աց<.>
   gramm: pl,dat
- -flex: <3>.ս<.>
+ -flex: <3><.>.ս<.>
   gramm: pl,loc
- -flex: <3>.աց<.>
+ -flex: <3><.>.աց<.>
   gramm: pl,abl
- -flex: <3>.աւք<.>
+ -flex: <3><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.10
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ն<.>
+ -flex: <1><.>.ն<.>
   gramm: sg,gen
- -flex: <1>.ն<.>
+ -flex: <1><.>.ն<.>
   gramm: sg,dat
- -flex: <1>.ն<.>
+ -flex: <1><.>.ն<.>
   gramm: sg,loc
- -flex: <1>.նէ<.>
+ -flex: <1><.>.նէ<.>
   gramm: sg,abl
- -flex: <2>.ամբ<.>
+ -flex: <2><.>.ամբ<.>
   gramm: sg,ins
- -flex: <3>.ք<.>
+ -flex: <3><.>.ք<.>
   gramm: pl,nom
- -flex: <3>.ս<.>//<3>զ.ս<.>
+ -flex: <3><.>.ս<.>
   gramm: pl,acc
- -flex: <3>.ց<.>//<2>.անց<.>
+ -flex: <3><.>.ց<.>//<2><.>.անց<.>
   gramm: pl,gen
- -flex: <3>.ց<.>//<2>.անց<.>
+ -flex: <3><.>.ց<.>//<2><.>.անց<.>
   gramm: pl,dat
- -flex: <3>.ս<.>
+ -flex: <3><.>.ս<.>
   gramm: pl,loc
- -flex: <3>.ց<.>//<2>.անց<.>
+ -flex: <3><.>.ց<.>//<2><.>.անց<.>
   gramm: pl,abl
- -flex: <2>.ամբք<.>
+ -flex: <2><.>.ամբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.11
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ոջ<.>
+ -flex: <1><.>.ոջ<.>
   gramm: sg,gen
- -flex: <1>.ոջ<.>
+ -flex: <1><.>.ոջ<.>
   gramm: sg,dat
- -flex: <1>.ոջ<.>
+ -flex: <1><.>.ոջ<.>
   gramm: sg,loc
- -flex: <1>.ոջէ<.>
+ -flex: <1><.>.ոջէ<.>
   gramm: sg,abl
- -flex: <1>.աւ<.>
+ -flex: <1><.>.աւ<.>
   gramm: sg,ins
- -flex: <1>.այք<.>
+ -flex: <1><.>.այք<.>
   gramm: pl,nom
- -flex: <1>.այս<.>//<1>զ.այս<.>
+ -flex: <1><.>.այս<.>
   gramm: pl,acc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,dat
- -flex: <1>.այս<.>
+ -flex: <1><.>.այս<.>
   gramm: pl,loc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.աւք<.>
+ -flex: <1><.>.աւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.12
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ընջեան<.>//<1>.նջեան<.>
+ -flex: <1><.>.ընջեան<.>//<1><.>.նջեան<.>
   gramm: sg,gen
- -flex: <1>.ընջեան<.>//<1>.նջեան<.>
+ -flex: <1><.>.ընջեան<.>//<1><.>.նջեան<.>
   gramm: sg,dat
- -flex: <1>.ընջեան<.>//<1>.նջեան<.>
+ -flex: <1><.>.ընջեան<.>//<1><.>.նջեան<.>
   gramm: sg,loc
- -flex: <1>.ընջենէ<.>//<1>.նջենէ<.>
+ -flex: <1><.>.ընջենէ<.>//<1><.>.նջենէ<.>
   gramm: sg,abl
- -flex: <1>.ընջեամբ<.>//<1>.նջեամբ<.>
+ -flex: <1><.>.ընջեամբ<.>//<1><.>.նջեամբ<.>
   gramm: sg,ins
- -flex: <0>.ք<.>
+ -flex: <0><.>.ք<.>
   gramm: pl,nom
- -flex: <0>.ս<.>//<0>զ.ս<.>
+ -flex: <0><.>.ս<.>
   gramm: pl,acc
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.13
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,gen
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,dat
- -flex: <1>.<.>
+ -flex: <1><.>.<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <2>.բ<.>
+ -flex: <2><.>.բ<.>
   gramm: sg,ins
- -flex: <3>.ք<.>
+ -flex: <3><.>.ք<.>
   gramm: pl,nom
- -flex: <3>.ս<.>//<3>զ.ս<.>
+ -flex: <3><.>.ս<.>
   gramm: pl,acc
- -flex: <2>.ց<.>
+ -flex: <2><.>.ց<.>
   gramm: pl,gen
- -flex: <2>.ց<.>
+ -flex: <2><.>.ց<.>
   gramm: pl,dat
- -flex: <3>.ս<.>
+ -flex: <3><.>.ս<.>
   gramm: pl,loc
- -flex: <2>.ց<.>
+ -flex: <2><.>.ց<.>
   gramm: pl,abl
- -flex: <3>.բք<.>
+ -flex: <3><.>.բք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.14
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .յ<.>
+ -flex: <.>.յ<.>
   gramm: sg,gen
- -flex: .յ<.>
+ -flex: <.>.յ<.>
   gramm: sg,dat
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,loc
- -flex: .յ<.>
+ -flex: <.>.յ<.>
   gramm: sg,abl
- -flex: .ւ<.>
+ -flex: <.>.ւ<.>
   gramm: sg,ins
- -flex: .յք<.>
+ -flex: <.>.յք<.>
   gramm: pl,nom
- -flex: .յս<.>//զ.յս<.>
+ -flex: <.>.յս<.>
   gramm: pl,acc
- -flex: .յց<.>
+ -flex: <.>.յց<.>
   gramm: pl,gen
- -flex: .յց<.>
+ -flex: <.>.յց<.>
   gramm: pl,dat
- -flex: .յս<.>
+ -flex: <.>.յս<.>
   gramm: pl,loc
- -flex: .յց<.>
+ -flex: <.>.յց<.>
   gramm: pl,abl
- -flex: .ւք<.>
+ -flex: <.>.ւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.15
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <0>.յ<.>
+ -flex: <0><.>.յ<.>
   gramm: sg,gen
- -flex: <0>.յ<.>
+ -flex: <0><.>.յ<.>
   gramm: sg,dat
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,loc
- -flex: <1>.է<.>
+ -flex: <1><.>.է<.>
   gramm: sg,abl
- -flex: <0>.ւ<.>
+ -flex: <0><.>.ւ<.>
   gramm: sg,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.16
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .յ<.>//.յոյ<.>
+ -flex: <.>.յ<.>//<.>.յոյ<.>
   gramm: sg,gen
- -flex: .ւմ<.>
+ -flex: <.>.ւմ<.>
   gramm: sg,dat
- -flex: .ւմ<.>
+ -flex: <.>.ւմ<.>
   gramm: sg,loc
- -flex: .ւմմէ<.>//.ւմէ<.>
+ -flex: <.>.ւմմէ<.>//<.>.ւմէ<.>
   gramm: sg,abl
- -flex: .վ<.>
+ -flex: <.>.վ<.>
   gramm: sg,ins
- -flex: .յք<.>
+ -flex: <.>.յք<.>
   gramm: pl,nom
- -flex: .յս<.>//զ.յս<.>
+ -flex: <.>.յս<.>
   gramm: pl,acc
- -flex: .յոց<.>//.ց<.>
+ -flex: <.>.յոց<.>//<.>.ց<.>
   gramm: pl,gen
- -flex: .յոց<.>//.ց<.>
+ -flex: <.>.յոց<.>//<.>.ց<.>
   gramm: pl,dat
- -flex: .յս<.>
+ -flex: <.>.յս<.>
   gramm: pl,loc
- -flex: .յոց<.>//.ց<.>
+ -flex: <.>.յոց<.>//<.>.ց<.>
   gramm: pl,abl
- -flex: .յովք<.>//.վք<.>
+ -flex: <.>.յովք<.>//<.>.վք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: N4.17
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,gen
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,dat
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,loc
- -flex: <1>.ոյ<.>
+ -flex: <1><.>.ոյ<.>
   gramm: sg,abl
- -flex: <1>.ով<.>
+ -flex: <1><.>.ով<.>
   gramm: sg,ins
- -flex: <1>.այք<.>
+ -flex: <1><.>.այք<.>
   gramm: pl,nom
- -flex: <1>.այս<.>//<1>զ.այս<.>
+ -flex: <1><.>.այս<.>
   gramm: pl,acc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,gen
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,dat
- -flex: <1>.այս<.>
+ -flex: <1><.>.այս<.>
   gramm: pl,loc
- -flex: <1>.աց<.>
+ -flex: <1><.>.աց<.>
   gramm: pl,abl
- -flex: <1>.ովք<.>
+ -flex: <1><.>.ովք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 
 
@@ -2408,126 +2441,128 @@
 
 
 -paradigm: P3
- -flex: <0>.
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.//<0>զ.
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.րա
+ -flex: <1><.>.րա<.>
   gramm: sg,gen
- -flex: <2>.
+ -flex: <2><.>.<.>
   gramm: sg,dat
- -flex: <2>.
+ -flex: <2><.>.<.>
   gramm: sg,loc
- -flex: <2>.նէ
+ -flex: <2><.>.նէ<.>
   gramm: sg,abl
- -flex: <1>.վաւ
+ -flex: <1><.>.վաւ<.>
   gramm: sg,ins
- -flex: <1>.քա
+ -flex: <1><.>.քա<.>
   gramm: pl,nom
- -flex: <1>.սա//<1>զ.սա
+ -flex: <1><.>.սա<.>
   gramm: pl,acc
- -flex: <1>.ցա
+ -flex: <1><.>.ցա<.>
   gramm: pl,gen
- -flex: <1>.ցա
+ -flex: <1><.>.ցա<.>
   gramm: pl,dat
- -flex: <1>.սա
+ -flex: <1><.>.սա<.>
   gramm: pl,loc
- -flex: <1>.ցանէ
+ -flex: <1><.>.ցանէ<.>
   gramm: pl,abl
- -flex: <1>.քաւք
+ -flex: <1><.>.քաւք<.>v
   gramm: pl,ins
+ paradigm: prep
 
 
 
 -paradigm: P3a
- -flex: <0>.
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.//<0>զ.
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <3>.
+ -flex: <3><.>.<.>
   gramm: sg,gen
- -flex: <2>.
+ -flex: <2><.>.<.>
   gramm: sg,dat
- -flex: <2>.
+ -flex: <2><.>.<.>
   gramm: sg,loc
- -flex: <2>.նէ
+ -flex: <2><.>.նէ<.>
   gramm: sg,abl
- -flex: <1>.վաւ
+ -flex: <1><.>.վաւ<.>
   gramm: sg,ins
- -flex: <0,4>.ք
+ -flex: <0,4><.>.ք<.>
   gramm: pl,nom
- -flex: <0,4>.ս//<0,4>զ.ս
+ -flex: <0,4><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ցա
+ -flex: <1><.>.ցա<.>
   gramm: pl,gen
- -flex: <1>.ցա
+ -flex: <1><.>.ցա<.>
   gramm: pl,dat
- -flex: <0,4>.ս
+ -flex: <0,4><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ցանէ
+ -flex: <1><.>.ցանէ<.>
   gramm: pl,abl
- -flex: <1>.քաւք
+ -flex: <1><.>.քաւք<.>
   gramm: pl,ins
+ paradigm: prep
 
 
 -paradigm: P9
- -flex: .<.>
+ -flex: <.>.<.>
   gramm: sg,nom
- -flex: .<.>//զ.<.>
+ -flex: <.>.<.>
   gramm: sg,acc
- -flex: .ր<.>//.որիկ<.>
+ -flex: <.>.ր<.>//<.>.որիկ<.>
   gramm: sg,gen
- -flex: .մ<.>//.միկ<.>
+ -flex: <.>.մ<.>//<.>.միկ<.>
   gramm: sg,dat
- -flex: .մ<.>//.միկ<.>
+ -flex: <.>.մ<.>//<.>.միկ<.>
   gramm: sg,loc
- -flex: .մ<.>//.մանէ<.>
+ -flex: <.>.մ<.>//<.>.մանէ<.>
   gramm: sg,abl
- -flex: .ու<.>//.ուիկ<.>
+ -flex: <.>.ու<.>//<.>.ուիկ<.>
   gramm: sg,ins
- -flex: .ք<.>//.ոքիկ<.>
+ -flex: <.>.ք<.>//<.>.ոքիկ<.>
   gramm: pl,nom
- -flex: .ս<.>//.ոսիկ<.>//զ.ս<.>//զ.ոսիկ<.>
+ -flex: <.>.ս<.>//<.>.ոսիկ<.>
   gramm: pl,acc
- -flex: .ց<.>//.ոցիկ<.>
+ -flex: <.>.ց<.>//<.>.ոցիկ<.>
   gramm: pl,gen
- -flex: .ց<.>//.ոցիկ<.>
+ -flex: <.>.ց<.>//<.>.ոցիկ<.>
   gramm: pl,dat
- -flex: .ս<.>//.ոսիկ<.>
+ -flex: <.>.ս<.>//<.>.ոսիկ<.>
   gramm: pl,loc
- -flex: .ց<.>//.ոցիկ<.>//.ցանէ<.>
+ -flex: <.>.ց<.>//<.>.ոցիկ<.>//<.>.ցանէ<.>
   gramm: pl,abl
- -flex: .ոքիւք<.>
+ -flex: <.>.ոքիւք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep
 
 -paradigm: P12
- -flex: <0>.<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0>.<.>//<0>զ.<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
- -flex: <1>.րին<.>
+ -flex: <1><.>.րին<.>
   gramm: sg,gen
- -flex: <2>.<.>
+ -flex: <2><.>.<.>
   gramm: sg,dat
- -flex: <2>.<.>
+ -flex: <2><.>.<.>
   gramm: sg,loc
- -flex: <2>.<.>
+ -flex: <2><.>.<.>
   gramm: sg,abl
- -flex: <1>.վին<.>//<1>.վիմբ<.>
+ -flex: <1><.>.վին<.>//<1><.>.վիմբ<.>
   gramm: sg,ins
- -flex: <1>.քին<.>//<0>.ք<.>
+ -flex: <1><.>.քին<.>//<0><.>.ք<.>
   gramm: pl,nom
- -flex: <1>.սին<.>//<0>.ս<.>//<1>զ.սին<.>//<0>զ.ս<.>
+ -flex: <1><.>.սին<.>//<0><.>.ս<.>
   gramm: pl,acc
- -flex: <1>.ցին<.>//<1>.ցուն<.>//<1>.ցունց<.>
+ -flex: <1><.>.ցին<.>//<1><.>.ցուն<.>//<1><.>.ցունց<.>
   gramm: pl,gen
- -flex: <1>.ցին<.>//<1>.ցուն<.>//<1>.ցունց<.>
+ -flex: <1><.>.ցին<.>//<1><.>.ցուն<.>//<1><.>.ցունց<.>
   gramm: pl,dat
- -flex: <1>.սին<.>//<0>.ս<.>
+ -flex: <1><.>.սին<.>//<0><.>.ս<.>
   gramm: pl,loc
- -flex: <1>.ցին<.>//<1>.ցուն<.>//<1>.ցունց<.>
+ -flex: <1><.>.ցին<.>//<1><.>.ցուն<.>//<1><.>.ցունց<.>
   gramm: pl,abl
- -flex: <1>.քիմբք<.>//<1>.քումբք<.>
+ -flex: <1><.>.քիմբք<.>//<1><.>.քումբք<.>
   gramm: pl,ins
- paradigm: poss_def
+ paradigm: prep

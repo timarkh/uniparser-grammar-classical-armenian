@@ -55,6 +55,12 @@ def parse_wordlists():
     """
     from uniparser_classical_armenian import ClassicalArmenianAnalyzer
     a = ClassicalArmenianAnalyzer()
+    # for ana in a.analyze_words('աբբայ'):
+    #     print(ana.wf, ana.lemma, ana.gramm)
+    # for ana in a.analyze_words('աբբայի'):
+    #     print(ana.wf, ana.lemma, ana.gramm)
+    # for ana in a.analyze_words('զաբբայի'):
+    #     print(ana.wf, ana.lemma, ana.gramm)
     a.analyze_wordlist(freqListFile='wordlists/wordlist.csv',
                        parsedFile='wordlists/wordlist_analyzed.txt',
                        unparsedFile='wordlists/wordlist_unanalyzed.txt',

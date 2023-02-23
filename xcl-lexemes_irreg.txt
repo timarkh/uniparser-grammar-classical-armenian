@@ -2,7 +2,7 @@
  lex: եմ
  stem: ել.
  gramm: V,inf
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -10,7 +10,7 @@
  lex: եմ
  stem: եմ.
  gramm: V,act,prs,1,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -18,7 +18,7 @@
  lex: եմ
  stem: ես.
  gramm: V,act,prs,2,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -26,7 +26,7 @@
  lex: եմ
  stem: է.
  gramm: V,act,prs,3,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -34,7 +34,7 @@
  lex: եմ
  stem: եմք.
  gramm: V,act,prs,1,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -42,7 +42,7 @@
  lex: եմ
  stem: էք.
  gramm: V,act,prs,2,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -50,7 +50,7 @@
  lex: եմ
  stem: են.
  gramm: V,act,prs,3,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -58,7 +58,7 @@
  lex: եմ
  stem: եի.//էի.
  gramm: V,amp,impf,1,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -66,7 +66,7 @@
  lex: եմ
  stem: եիր.//էիր.
  gramm: V,amp,impf,2,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -74,7 +74,7 @@
  lex: եմ
  stem: էր.
  gramm: V,amp,impf,3,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -82,7 +82,7 @@
  lex: եմ
  stem: եաք.//էաք.
  gramm: V,amp,impf,1,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -90,7 +90,7 @@
  lex: եմ
  stem: եիք.//էիք.
  gramm: V,amp,impf,2,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -98,7 +98,7 @@
  lex: եմ
  stem: եին.//էին.
  gramm: V,amp,impf,3,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -106,7 +106,7 @@
  lex: եմ
  stem: իւր.
  gramm: V,mp,impf,3,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -114,7 +114,7 @@
  lex: եմ
  stem: իցեմ.
  gramm: V,act,prs_sbj,1,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -122,7 +122,7 @@
  lex: եմ
  stem: իցես.
  gramm: V,act,prs_sbj,2,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -130,7 +130,7 @@
  lex: եմ
  stem: իցէ.
  gramm: V,act,prs_sbj,3,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -138,7 +138,7 @@
  lex: եմ
  stem: իցեմք.
  gramm: V,act,prs_sbj,1,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -146,7 +146,7 @@
  lex: եմ
  stem: իցէք.
  gramm: V,act,prs_sbj,2,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -154,7 +154,7 @@
  lex: եմ
  stem: իցեն.
  gramm: V,act,prs_sbj,3,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -162,7 +162,7 @@
  lex: եմ
  stem: եր.
  gramm: V,act,ipv,2,sg
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -170,7 +170,7 @@
  lex: եմ
  stem: էք.
  gramm: V,act,ipv,2,pl
- paradigm: unchangeable
+ paradigm: def
  trans_en: be
  trans_fr: être
 
@@ -198,113 +198,113 @@
 
 -lexeme
  lex: ես
- stem: ես.
+ stem: .ես.
  gramm: PRON,1,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: I
  trans_fr: je, moi
 
 -lexeme
  lex: ես
- stem: իս.//զիս.
+ stem: .իս.
  gramm: PRON,1,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: I
  trans_fr: je, moi
 
 -lexeme
  lex: ես
- stem: իմ.
+ stem: .իմ.
  gramm: PRON,1,sg,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: I
  trans_fr: je, moi
 
 -lexeme
  lex: ես
- stem: ինձ.
+ stem: .ինձ.
  gramm: PRON,1,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: I
  trans_fr: je, moi
 
 -lexeme
  lex: ես
- stem: ինձ.
+ stem: .ինձ.
  gramm: PRON,1,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: I
  trans_fr: je, moi
 
 -lexeme
  lex: ես
- stem: ինէն.
+ stem: .ինէն.
  gramm: PRON,1,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: I
  trans_fr: je, moi
 
 -lexeme
  lex: ես
- stem: ինեւ.
+ stem: .ինեւ.
  gramm: PRON,1,sg,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: I
  trans_fr: je, moi
 
 -lexeme
  lex: մեք
- stem: մեք.
+ stem: .մեք.
  gramm: PRON,1,pl,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: we
  trans_fr: nous
 
 -lexeme
  lex: մեք
- stem: մեզ.//զմեզ.
+ stem: .մեզ.
  gramm: PRON,1,pl,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: we
  trans_fr: nous
 
 -lexeme
  lex: մեք
- stem: մեր.
+ stem: .մեր.
  gramm: PRON,1,pl,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: we
  trans_fr: nous
 
 -lexeme
  lex: մեք
- stem: մեզ.
+ stem: .մեզ.
  gramm: PRON,1,pl,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: we
  trans_fr: nous
 
 -lexeme
  lex: մեք
- stem: մեզ.
+ stem: .մեզ.
  gramm: PRON,1,pl,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: we
  trans_fr: nous
 
 -lexeme
  lex: մեք
- stem: մէնջ.
+ stem: .մէնջ.
  gramm: PRON,1,pl,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: we
  trans_fr: nous
 
 -lexeme
  lex: մեք
- stem: մեւք.//.մեաւք.
+ stem: .մեւք.//...մեաւք.
  gramm: PRON,1,pl,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: we
  trans_fr: nous
 
@@ -312,113 +312,113 @@
 
 -lexeme
  lex: դու
- stem: դու.
+ stem: .դու.
  gramm: PRON,2,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you, thou
  trans_fr: tu, toi
 
 -lexeme
  lex: դու
- stem: քեզ.//զքեզ.
+ stem: .քեզ.
  gramm: PRON,2,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you, thou
  trans_fr: tu, toi
 
 -lexeme
  lex: դու
- stem: քո.
+ stem: .քո.
  gramm: PRON,2,sg,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you, thou
  trans_fr: tu, toi
 
 -lexeme
  lex: դու
- stem: քեզ.
+ stem: .քեզ.
  gramm: PRON,2,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you, thou
  trans_fr: tu, toi
 
 -lexeme
  lex: դու
- stem: քեզ.
+ stem: .քեզ.
  gramm: PRON,2,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you, thou
  trans_fr: tu, toi
 
 -lexeme
  lex: դու
- stem: քէն.
+ stem: .քէն.
  gramm: PRON,2,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you, thou
  trans_fr: tu, toi
 
 -lexeme
  lex: դու
- stem: քեւ.
+ stem: .քեւ.
  gramm: PRON,2,sg,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you, thou
  trans_fr: tu, toi
 
 -lexeme
  lex: դուք
- stem: դուք.
+ stem: .դուք.
  gramm: PRON,2,pl,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you
  trans_fr: vous
 
 -lexeme
  lex: դուք
- stem: ձեզ.//զձեզ.
+ stem: .ձեզ.
  gramm: PRON,2,pl,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you
  trans_fr: vous
 
 -lexeme
  lex: դուք
- stem: ձեր.
+ stem: .ձեր.
  gramm: PRON,2,pl,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you
  trans_fr: vous
 
 -lexeme
  lex: դուք
- stem: ձեզ.
+ stem: .ձեզ.
  gramm: PRON,2,pl,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you
  trans_fr: vous
 
 -lexeme
  lex: դուք
- stem: ձեզ.
+ stem: .ձեզ.
  gramm: PRON,2,pl,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you
  trans_fr: vous
 
 -lexeme
  lex: դուք
- stem: ձէնջ.
+ stem: .ձէնջ.
  gramm: PRON,2,pl,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you
  trans_fr: vous
 
 -lexeme
  lex: դուք
- stem: ձեւք.//.ձեաւք.
+ stem: .ձեւք.//...ձեաւք.
  gramm: PRON,2,pl,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: you
  trans_fr: vous
 
@@ -427,49 +427,49 @@
 
 -lexeme
  lex: ոք
- stem: ոք.
+ stem: .ոք.
  gramm: PRON,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
 -lexeme
  lex: ոք
- stem: ոք.//զոք.
+ stem: .ոք.
  gramm: PRON,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
 -lexeme
  lex: ոք
- stem: ուրուք.
+ stem: .ուրուք.
  gramm: PRON,sg,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
 -lexeme
  lex: ոք
- stem: ումեք.
+ stem: .ումեք.
  gramm: PRON,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
 -lexeme
  lex: ոք
- stem: ումեք.
+ stem: .ումեք.
  gramm: PRON,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
 -lexeme
  lex: ոք
- stem: ումեքէ.
+ stem: .ումեքէ.
  gramm: PRON,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
@@ -480,113 +480,113 @@
 
 -lexeme
  lex: ոմն
- stem: ոմն.
+ stem: .ոմն.
  gramm: PRON,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմն.//զոմն.
+ stem: .ոմն.
  gramm: PRON,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ուրումն.
+ stem: .ուրումն.
  gramm: PRON,sg,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ումեմն.
+ stem: .ումեմն.
  gramm: PRON,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ումեմն.
+ stem: .ումեմն.
  gramm: PRON,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ումեմնէ.
+ stem: .ումեմնէ.
  gramm: PRON,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմամբ.
+ stem: .ոմամբ.
  gramm: PRON,sg,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմանք.
+ stem: .ոմանք.
  gramm: PRON,pl,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմանս.//զոմանս.
+ stem: .ոմանս.
  gramm: PRON,pl,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմանց.
+ stem: .ոմանց.
  gramm: PRON,pl,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմանց.
+ stem: .ոմանց.
  gramm: PRON,pl,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմանս.
+ stem: .ոմանս.
  gramm: PRON,pl,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմանց.
+ stem: .ոմանց.
  gramm: PRON,pl,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
 -lexeme
  lex: ոմն
- stem: ոմամբք.
+ stem: .ոմամբք.
  gramm: PRON,pl,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -597,57 +597,57 @@
 
 -lexeme
  lex: ինչ
- stem: ինչ.
+ stem: .ինչ.
  gramm: PRON,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
 -lexeme
  lex: ինչ
- stem: ինչ.//զինչ.
+ stem: .ինչ.
  gramm: PRON,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
 -lexeme
  lex: ինչ
- stem: իրիք.
+ stem: .իրիք.
  gramm: PRON,sg,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
 -lexeme
  lex: ինչ
- stem: իմիք.
+ stem: .իմիք.
  gramm: PRON,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
 -lexeme
  lex: ինչ
- stem: իմիք.
+ stem: .իմիք.
  gramm: PRON,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
 -lexeme
  lex: ինչ
- stem: իմեքէ.
+ stem: .իմեքէ.
  gramm: PRON,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
 -lexeme
  lex: ինչ
- stem: իւիք.
+ stem: .իւիք.
  gramm: PRON,sg,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
@@ -658,41 +658,41 @@
 
 -lexeme
  lex: իմն
- stem: իմն.
+ stem: .իմն.
  gramm: PRON,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
 -lexeme
  lex: իմն
- stem: իմն.//զիմն.
+ stem: .իմն.
  gramm: PRON,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
 -lexeme
  lex: իմն
- stem: իմեմն.
+ stem: .իմեմն.
  gramm: PRON,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
 -lexeme
  lex: իմն
- stem: իմեմն.
+ stem: .իմեմն.
  gramm: PRON,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
 -lexeme
  lex: իմն
- stem: իմեմնէ.
+ stem: .իմեմնէ.
  gramm: PRON,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
@@ -703,97 +703,97 @@
 
 -lexeme
  lex: ով
- stem: ո.//ով.
+ stem: .ո.//.ով.
  gramm: PRON,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ո.//ով.//զո.//զով.
+ stem: .ո.//.ով.
  gramm: PRON,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ոյր.
+ stem: .ոյր.
  gramm: PRON,sg,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ում.
+ stem: .ում.
  gramm: PRON,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ում.
+ stem: .ում.
  gramm: PRON,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ումէ.
+ stem: .ումէ.
  gramm: PRON,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ոյք.
+ stem: .ոյք.
  gramm: PRON,pl,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ոյս.//զոյս.
+ stem: .ոյս.
  gramm: PRON,pl,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ոյց.
+ stem: .ոյց.
  gramm: PRON,pl,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ոյց.
+ stem: .ոյց.
  gramm: PRON,pl,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ոյս.
+ stem: .ոյս.
  gramm: PRON,pl,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
 -lexeme
  lex: ով
- stem: ոյց.
+ stem: .ոյց.
  gramm: PRON,pl,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who
  trans_fr: qui
 
@@ -804,113 +804,113 @@
 
 -lexeme
  lex: իւր
- stem: իւր.
+ stem: .իւր.
  gramm: PRON,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւր.//զիւր.
+ stem: .իւր.
  gramm: PRON,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւր.
+ stem: .իւր.
  gramm: PRON,sg,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւր.
+ stem: .իւր.
  gramm: PRON,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւր.
+ stem: .իւր.
  gramm: PRON,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրմէ.
+ stem: .իւրմէ.
  gramm: PRON,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրև.//իւրեաւ.//իւրեամբ.
+ stem: .իւրև.//.իւրեաւ.//.իւրեամբ.
  gramm: PRON,sg,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրեանք.
+ stem: .իւրեանք.
  gramm: PRON,pl,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրեանս.//զիւրեանս.
+ stem: .իւրեանս.
  gramm: PRON,pl,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրեանց.
+ stem: .իւրեանց.
  gramm: PRON,pl,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրեանց.
+ stem: .իւրեանց.
  gramm: PRON,pl,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրեանս.
+ stem: .իւրեանս.
  gramm: PRON,pl,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրեանց.
+ stem: .իւրեանց.
  gramm: PRON,pl,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
 -lexeme
  lex: իւր
- stem: իւրեամբք.
+ stem: .իւրեամբք.
  gramm: PRON,pl,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -919,60 +919,56 @@
 
 -lexeme
  lex: զինչ
- stem: զի.//.զինչ.
+ stem: .զի.//.զինչ.
  gramm: PRON,sg,nom
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
 -lexeme
  lex: զինչ
- stem: զի.//.զինչ.//զզի.//.զզինչ.
+ stem: .զի.//.զինչ.
  gramm: PRON,sg,acc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
 -lexeme
  lex: զինչ
- stem: էր.
+ stem: .էր.
  gramm: PRON,sg,gen
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
 -lexeme
  lex: զինչ
- stem: իմ.//.հիմ.
+ stem: .իմ.//.հիմ.
  gramm: PRON,sg,dat
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
 -lexeme
  lex: զինչ
- stem: իմ.//.հիմ.
+ stem: .իմ.//.հիմ.
  gramm: PRON,sg,loc
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
 -lexeme
  lex: զինչ
- stem: իմէ.//.զմէ.//.մէ.
+ stem: .իմէ.//.զմէ.//...մէ.
  gramm: PRON,sg,abl
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
 -lexeme
  lex: զինչ
- stem: իւ.
+ stem: .իւ.
  gramm: PRON,sg,ins
- paradigm: unchangeable
+ paradigm: prep_pro
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
-
-
-
-
