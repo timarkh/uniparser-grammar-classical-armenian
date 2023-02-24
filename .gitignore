@@ -39,4 +39,3 @@ pip-delete-this-directory.txt
 venv/
 ENV/
 uniparser_classical_armenian/data/*.cg3
-wordlist_unanalyzed_freq.txt
