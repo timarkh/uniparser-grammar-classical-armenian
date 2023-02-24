@@ -302,7 +302,7 @@
 
 -lexeme
  lex: մեք
- stem: .մեւք.//...մեաւք.
+ stem: .մեւք.//.մեաւք.
  gramm: PRON,1,pl,ins
  paradigm: prep_pro
  trans_en: we
