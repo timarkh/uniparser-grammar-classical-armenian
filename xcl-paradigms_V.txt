@@ -6256,7 +6256,7 @@
 -paradigm: V4.2.2
  -flex: <0>.ուլ<.>
   gramm: inf
- -flex: <0>.եալ<.>
+ -flex: <1>.եալ<.>
   gramm: pfv
  -flex: <0>.լոց<.>
   gramm: fut
