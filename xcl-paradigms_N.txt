@@ -2,12 +2,6 @@
  -flex: .
   gramm: 
 
--paradigm: def
- -flex: .
-  gramm: 
- -flex: .ն
-  gramm: def
-
 -paradigm: poss_def
  -flex: .
   gramm: 
