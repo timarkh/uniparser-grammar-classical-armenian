@@ -248,6 +248,38 @@
   gramm: sg,ins
  paradigm: prep
 
+-paradigm: N1.3.2b
+ -flex: <.>.<.>
+  gramm: sg,nom
+ -flex: <.>.<.>
+  gramm: sg,acc
+ -flex: <.>.ոյ<.>
+  gramm: sg,gen
+ -flex: <.>.ում<.>
+  gramm: sg,dat
+ -flex: <.>.ում<.>
+  gramm: sg,loc
+ -flex: <.>.մէ<.>
+  gramm: sg,abl
+ -flex: <.>.ով<.>
+  gramm: sg,ins
+ -flex: <.>.ք<.>
+  gramm: sg,nom
+ -flex: <.>.ս<.>
+  gramm: sg,acc
+ -flex: <.>.ոց<.>
+  gramm: sg,gen
+ -flex: <.>.ոց<.>
+  gramm: sg,dat
+ -flex: <.>.ս<.>
+  gramm: sg,loc
+ -flex: <.>.ոց<.>
+  gramm: sg,abl
+ -flex: <.>.ովք<.>
+  gramm: sg,ins
+ paradigm: prep
+
+
 -paradigm: N1.3.3
  -flex: <0><.>.<.>
   gramm: sg,nom

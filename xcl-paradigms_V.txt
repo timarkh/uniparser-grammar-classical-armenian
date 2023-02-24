@@ -5237,13 +5237,23 @@
   gramm: act,aor_sbj,1,sg
  -flex: <2>.ցես<.>
   gramm: act,aor_sbj,2,sg
+ -flex: <3>.ցես<.>
+  gramm: act,aor_sbj,2,sg
  -flex: <2>.ցէ<.>
+  gramm: act,aor_sbj,3,sg
+ -flex: <3>.ցէ<.>
   gramm: act,aor_sbj,3,sg
  -flex: <2>.ցուք<.>
   gramm: act,aor_sbj,1,pl
+ -flex: <3>.ցուք<.>
+  gramm: act,aor_sbj,1,pl
  -flex: <2>.ջիք<.>
   gramm: act,aor_sbj,2,pl
+ -flex: <3>.ջիք<.>
+  gramm: act,aor_sbj,2,pl
  -flex: <2>.ցեն<.>
+  gramm: act,aor_sbj,3,pl
+ -flex: <3>.ցեն<.>
   gramm: act,aor_sbj,3,pl
  -flex: <0>.ար<.>
   gramm: amp,proh,2,sg
@@ -5254,6 +5264,8 @@
  -flex: <1>.այք<.>
   gramm: mp,ipv,2,pl
  -flex: <2>.ջիր<.>
+  gramm: amp,aor_coh,2,sg
+ -flex: <3>.ջիր<.>
   gramm: amp,aor_coh,2,sg
  paradigm: poss_def
 
