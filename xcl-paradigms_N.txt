@@ -166,6 +166,37 @@
  -flex: <.>.ուք<.>
   gramm: pl,ins
  paradigm: prep
+ 
+ -paradigm: N1.2.1a
+ -flex: <.>.<.>
+  gramm: sg,nom
+ -flex: <.>.<.>
+  gramm: sg,acc
+ -flex: <.>.<.>
+  gramm: sg,gen
+ -flex: <.>.<.>
+  gramm: sg,dat
+ -flex: <.>.<.>
+  gramm: sg,loc
+ -flex: <.>.է<.>
+  gramm: sg,abl
+ -flex: <.>.<.>
+  gramm: sg,ins
+ -flex: <.>.ք<.>
+  gramm: pl,nom
+ -flex: <.>.ս<.>
+  gramm: pl,acc
+ -flex: <.>.ց<.>
+  gramm: pl,gen
+ -flex: <.>.ց<.>
+  gramm: pl,dat
+ -flex: <.>.ս<.>
+  gramm: pl,loc
+ -flex: <.>.ց<.>
+  gramm: pl,abl
+ -flex: <.>.ք<.>
+  gramm: pl,ins
+ paradigm: prep
 
 -paradigm: N1.2.2
  -flex: <0><.>.<.>
@@ -435,6 +466,37 @@
  -flex: <.>.աց<.>
   gramm: pl,abl
  -flex: <.>.աւք<.>
+  gramm: pl,ins
+ paradigm: prep
+
+-paradigm: N1.4.1a
+ -flex: <0><.>.<.>
+  gramm: sg,nom
+ -flex: <0><.>.<.>
+  gramm: sg,acc
+ -flex: <1><.>.այ<.>
+  gramm: sg,gen
+ -flex: <1><.>.այ<.>
+  gramm: sg,dat
+ -flex: <1><0><.>.<.>
+  gramm: sg,loc
+ -flex: <1><.>.այ<.>
+  gramm: sg,abl
+ -flex: <1><.>.աւ<.>
+  gramm: sg,ins
+ -flex: <0><.>.ք<.>
+  gramm: pl,nom
+ -flex: <0><.>.ս<.>
+  gramm: pl,acc
+ -flex: <1><.>.աց<.>
+  gramm: pl,gen
+ -flex: <1><.>.աց<.>
+  gramm: pl,dat
+ -flex: <0><.>.ս<.>
+  gramm: pl,loc
+ -flex: <1><.>.աց<.>
+  gramm: pl,abl
+ -flex: <1><.>.աւք<.>
   gramm: pl,ins
  paradigm: prep
 
