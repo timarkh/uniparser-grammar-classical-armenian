@@ -198,6 +198,25 @@
   gramm: pl,ins
  paradigm: prep
 
+
+-paradigm: N1.2.1b
+ -flex: <.>.էս<.>
+  gramm: sg,nom
+ -flex: <.>.էս<.>
+  gramm: sg,acc
+ -flex: <.>.ու<.>
+  gramm: sg,gen
+ -flex: <.>.ու<.>
+  gramm: sg,dat
+ -flex: <.>.ու<.>
+  gramm: sg,loc
+ -flex: <.>.է<.>
+  gramm: sg,abl
+ -flex: <.>.ու<.>
+  gramm: sg,ins
+ paradigm: prep
+ 
+
 -paradigm: N1.2.2
  -flex: <0><.>.<.>
   gramm: sg,nom
@@ -433,9 +452,6 @@
  -flex: <.>.ւովք<.>
   gramm: pl,ins
  paradigm: prep
-
-
-
 
 
 -paradigm: N1.4.1

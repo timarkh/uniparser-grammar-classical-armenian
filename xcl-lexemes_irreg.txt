@@ -175,9 +175,6 @@
  trans_fr: être
 
 
-
-
-
 -lexeme
  lex: գոգ
  stem: գոգ.

@@ -6973,25 +6973,25 @@
 
 
 -paradigm: V5.0.1
- -flex: .գոմ<.>
+ -flex: .ոմ<.>
   gramm: act,prs,1,sg
- -flex: .գոս<.>
+ -flex: .ոս<.>
   gramm: act,prs,2,sg
- -flex: .գոյ<.>
+ -flex: .ոյ<.>
   gramm: act,prs,3,sg
- -flex: .գոմք<.>
+ -flex: .ոմք<.>
   gramm: act,prs,1,pl
- -flex: .գոյք<.>
+ -flex: .ոյք<.>
   gramm: act,prs,2,pl
- -flex: .գոն<.>
+ -flex: .ոն<.>
   gramm: act,prs,3,pl
- -flex: .գոյր<.>
+ -flex: .ոյր<.>
   gramm: amp,impf,3,sg
- -flex: .գոյին<.>
+ -flex: .ոյին<.>
   gramm: amp,impf,3,pl
- -flex: .գուցէ<.>
+ -flex: .ուցէ<.>
   gramm: act,prs_sbj,3,sg
- -flex: .գուցեն<.>
+ -flex: .ուցեն<.>
   gramm: act,prs_sbj,3,pl
  paradigm: poss_def
 
