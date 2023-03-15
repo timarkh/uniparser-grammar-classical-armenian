@@ -1,176 +1,176 @@
 -lexeme
  lex: եմ
- stem: ել.
+ stem: .ել.
  gramm: V,inf
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: եմ.
+ stem: .եմ.
  gramm: V,act,prs,1,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: ես.
+ stem: .ես.
  gramm: V,act,prs,2,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: է.
+ stem: .է.
  gramm: V,act,prs,3,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: եմք.
+ stem: .եմք.
  gramm: V,act,prs,1,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: էք.
+ stem: .էք.
  gramm: V,act,prs,2,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: են.
+ stem: .են.
  gramm: V,act,prs,3,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: եի.//էի.
+ stem: .եի.//էի.
  gramm: V,amp,impf,1,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: եիր.//էիր.
+ stem: .եիր.//էիր.
  gramm: V,amp,impf,2,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: էր.
+ stem: .էր.
  gramm: V,amp,impf,3,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: եաք.//էաք.
+ stem: .եաք.//էաք.
  gramm: V,amp,impf,1,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: եիք.//էիք.
+ stem: .եիք.//էիք.
  gramm: V,amp,impf,2,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: եին.//էին.
+ stem: .եին.//էին.
  gramm: V,amp,impf,3,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: իւր.
+ stem: .իւր.
  gramm: V,mp,impf,3,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: իցեմ.
+ stem: .իցեմ.
  gramm: V,act,prs_sbj,1,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: իցես.
+ stem: .իցես.
  gramm: V,act,prs_sbj,2,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: իցէ.
+ stem: .իցէ.
  gramm: V,act,prs_sbj,3,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: իցեմք.
+ stem: .իցեմք.
  gramm: V,act,prs_sbj,1,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: իցէք.
+ stem: .իցէք.
  gramm: V,act,prs_sbj,2,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: իցեն.
+ stem: .իցեն.
  gramm: V,act,prs_sbj,3,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: եր.
+ stem: .եր.
  gramm: V,act,ipv,2,sg
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
 -lexeme
  lex: եմ
- stem: էք.
+ stem: .էք.
  gramm: V,act,ipv,2,pl
- paradigm: def
+ paradigm: neg_poss_def
  trans_en: be
  trans_fr: être
 
@@ -243,7 +243,7 @@
 
 -lexeme
  lex: ես
- stem: .ինեւ.
+ stem: .ինեւ.//.ինև.
  gramm: PRON,1,sg,ins
  paradigm: prep_pro
  trans_en: I
@@ -299,7 +299,7 @@
 
 -lexeme
  lex: մեք
- stem: .մեւք.//.մեաւք.
+ stem: .մեւք.//.մևք.//.մեաւք.
  gramm: PRON,1,pl,ins
  paradigm: prep_pro
  trans_en: we
@@ -357,7 +357,7 @@
 
 -lexeme
  lex: դու
- stem: .քեւ.
+ stem: .քեւ.//.քև.
  gramm: PRON,2,sg,ins
  paradigm: prep_pro
  trans_en: you, thou
@@ -413,7 +413,7 @@
 
 -lexeme
  lex: դուք
- stem: .ձեւք.//...ձեաւք.
+ stem: .ձեւք.//.ձևք.//.ձեաւք.
  gramm: PRON,2,pl,ins
  paradigm: prep_pro
  trans_en: you
@@ -849,7 +849,7 @@
 
 -lexeme
  lex: իւր
- stem: .իւրև.//.իւրեաւ.//.իւրեամբ.
+ stem: .իւրև.//.իւրեւ.//.իւրեաւ.//.իւրեամբ.
  gramm: PRON,sg,ins
  paradigm: prep_pro
  trans_en: his, her, their own

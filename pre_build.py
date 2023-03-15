@@ -3,6 +3,9 @@ import os
 import shutil
 
 
+rxDiacritics = re.compile('[՜՞]')
+
+
 def collect_lemmata(dirName):
     lemmata = ''
     lexrules = ''
@@ -17,6 +20,7 @@ def collect_lemmata(dirName):
             f.close()
     lemmataSet = set(re.findall('-lexeme\n(?: [^\r\n]*\n)+', lemmata, flags=re.DOTALL))
     lemmata = '\n'.join(sorted(list(lemmataSet)))
+    lemmata = rxDiacritics.sub('', lemmata)
     return lemmata, lexrules
 
 
