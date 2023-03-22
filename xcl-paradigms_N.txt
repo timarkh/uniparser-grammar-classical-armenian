@@ -1394,13 +1394,13 @@
   gramm: pl,nom
  -flex: <.>.սին<.>//<.>.սեան<.>
   gramm: pl,acc
- -flex: <.>.ցունց<.>
+ -flex: <.>.ցունց<.>//<.>.ցուն<.>
   gramm: pl,gen
- -flex: <.>.ցունց<.>
+ -flex: <.>.ցունց<.>//<.>.ցուն<.>
   gramm: pl,dat
  -flex: <.>.սին<.>//<.>.սեան<.>
   gramm: pl,loc
- -flex: <.>.ցունց<.>
+ -flex: <.>.ցունց<.>//<.>.ցուն<.>
   gramm: pl,abl
  -flex: <.>.քումբք<.>
   gramm: pl,ins
