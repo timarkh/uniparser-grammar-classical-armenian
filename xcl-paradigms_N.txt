@@ -969,9 +969,9 @@
  paradigm: prep
 
 -paradigm: N2.1.1
- -flex: <0><.>.ն<.>
+ -flex: <0><.>.<.>
   gramm: sg,nom
- -flex: <0><.>.ն<.>
+ -flex: <0><.>.<.>
   gramm: sg,acc
  -flex: <1><.>.ան<.>
   gramm: sg,gen
