@@ -10515,6 +10515,9 @@
 
 
 -paradigm: V5.0.1
+ -flex: <.>.ոլ<.>
+  gramm: inf
+  paradigm: inf_decl
  -flex: <.>.ոմ<.>
   gramm: act,prs,1,sg
   paradigm: neg_poss_def
