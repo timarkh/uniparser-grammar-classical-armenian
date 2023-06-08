@@ -446,7 +446,7 @@
   gramm: pl,ins
  paradigm: prep
 
--paradigm: N1.3.5a
+-paradigm: N1.3.5
  -flex: <0><.>.<.>
   gramm: sg,nom
  -flex: <0><.>.<.>
