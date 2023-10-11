@@ -3,21 +3,21 @@
   gramm: 
  -flex: <.>չ.<.>
   gramm: neg
- paradigm: N1.3.1
+ paradigm: N1.8_inf
 
 -paradigm: inf_ul_decl_full
  -flex: <.>.<.>
   gramm: 
  -flex: <.>չ.<.>
   gramm: neg
- paradigm: N1.3.3_inf_full
+ paradigm: N1.8_inf_full
  
 -paradigm: inf_ul_decl_obl
  -flex: <.>.<.>
   gramm: 
  -flex: <.>չ.<.>
   gramm: neg
- paradigm: N1.3.3_inf_obl
+ paradigm: N1.8_inf_obl
  
 -paradigm: neg_poss_def
  -flex: 0.<.>
@@ -31,17 +31,17 @@
   gramm: 
  -flex: <.>չ.<.>
   gramm: neg
- paradigm: N1.3.2c
+ paradigm: N1.10
 
 -paradigm: ptcp_decl_obl
  -flex: <.>.<.>
   gramm: 
  -flex: <.>չ.<.>
   gramm: neg
- paradigm: N1.3.2c_obl
+ paradigm: N1.10_obl
 
 
--paradigm: V1.1.1
+-paradigm: V1.2
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -255,7 +255,7 @@
 
 
 
--paradigm: V1.1.2
+-paradigm: V1.3
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -469,7 +469,7 @@
 
 
 
--paradigm: V1.2.1
+-paradigm: V1.4
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -683,7 +683,7 @@
 
 
 
--paradigm: V1.2.10
+-paradigm: V1.5
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -897,7 +897,7 @@
 
 
 
--paradigm: V1.2.11
+-paradigm: V1.7
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -1111,7 +1111,7 @@
 
 
 
--paradigm: V1.2.12
+-paradigm: V1.8
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -1325,7 +1325,7 @@
 
 
 
--paradigm: V1.2.13
+-paradigm: V1.9
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -1539,7 +1539,7 @@
 
 
 
--paradigm: V1.2.14
+-paradigm: V1.10
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -1753,221 +1753,7 @@
 
 
 
--paradigm: V1.2.15
- -flex: <0><.>.ել<.>//<0><.>.իլ<.>
-  gramm: inf
-  paradigm: inf_decl
- -flex: <1><.>.եալ<.>
-  gramm: pfv
-  paradigm: ptcp_decl
- -flex: <1><.>.ել<.>
-  gramm: pfv
-  paradigm: ptcp_decl_obl
- -flex: <0><.>.ելոց<.>
-  gramm: fut
-  paradigm: ptcp_decl
- -flex: <0><.>.եմ<.>
-  gramm: act,prs,1,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.ես<.>
-  gramm: act,prs,2,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.է<.>
-  gramm: act,prs,3,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.եմք<.>
-  gramm: act,prs,1,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.էք<.>
-  gramm: act,prs,2,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.են<.>
-  gramm: act,prs,3,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իմ<.>
-  gramm: mp,prs,1,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իս<.>
-  gramm: mp,prs,2,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.ի<.>
-  gramm: mp,prs,3,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իմք<.>
-  gramm: mp,prs,1,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իք<.>
-  gramm: mp,prs,2,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.ին<.>
-  gramm: mp,prs,3,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.եի<.>//<0><.>.էի<.>
-  gramm: amp,impf,1,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.եիր<.>//<0><.>.էիր<.>
-  gramm: amp,impf,2,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.էր<.>
-  gramm: amp,impf,3,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.եաք<.>//<0><.>.էաք<.>
-  gramm: amp,impf,1,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.եիք<.>//<0><.>.էիք<.>
-  gramm: amp,impf,2,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.եին<.>//<0><.>.էին<.>
-  gramm: amp,impf,3,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իւր<.>
-  gramm: mp,impf,3,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իցեմ<.>
-  gramm: act,prs_sbj,1,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իցես<.>
-  gramm: act,prs_sbj,2,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իցէ<.>
-  gramm: act,prs_sbj,3,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իցեմք<.>
-  gramm: act,prs_sbj,1,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իցէք<.>
-  gramm: act,prs_sbj,2,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իցեն<.>
-  gramm: act,prs_sbj,3,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իցիմ<.>
-  gramm: mp,prs_sbj,1,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իցիս<.>
-  gramm: mp,prs_sbj,2,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իցի<.>
-  gramm: mp,prs_sbj,3,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իցիմք<.>
-  gramm: mp,prs_sbj,1,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իցիք<.>
-  gramm: mp,prs_sbj,2,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իցին<.>
-  gramm: mp,prs_sbj,3,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իջիր<.>
-  gramm: amp,prs_coh,2,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իջիք<.>
-  gramm: amp,prs_coh,2,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ի<.>
-  gramm: act,aor,1,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.եր<.>
-  gramm: act,aor,2,sg
-  paradigm: neg_poss_def
- -flex: <2><.>.<.>//<3><.>.<.>
-  gramm: act,aor,3,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.աք<.>
-  gramm: act,aor,1,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.էք<.>//<1><.>.իք<.>
-  gramm: act,aor,2,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ին<.>
-  gramm: act,aor,3,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.այ<.>
-  gramm: mp,aor,1,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.ար<.>
-  gramm: mp,aor,2,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.աւ<.>
-  gramm: mp,aor,3,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.աք<.>
-  gramm: mp,aor,1,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.այք<.>
-  gramm: mp,aor,2,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ան<.>
-  gramm: mp,aor,3,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ից<.>
-  gramm: act,aor_sbj,1,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.ցես<.>
-  gramm: act,aor_sbj,2,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.ցէ<.>
-  gramm: act,aor_sbj,3,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.ցուք<.>
-  gramm: act,aor_sbj,1,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ջիք<.>
-  gramm: act,aor_sbj,2,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ցեն<.>
-  gramm: act,aor_sbj,3,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.այց<.>
-  gramm: mp,aor_sbj,1,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.ցիս<.>
-  gramm: mp,aor_sbj,2,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.ցի<.>
-  gramm: mp,aor_sbj,3,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.ցուք<.>
-  gramm: mp,aor_sbj,1,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ջիք<.>
-  gramm: mp,aor_sbj,2,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ցին<.>
-  gramm: mp,aor_sbj,3,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.եր<.>
-  gramm: act,proh,2,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.էք<.>
-  gramm: act,proh,2,pl
-  paradigm: neg_poss_def
- -flex: <0><.>.իր<.>
-  gramm: mp,proh,2,sg
-  paradigm: neg_poss_def
- -flex: <0><.>.իք<.>
-  gramm: mp,proh,2,pl
-  paradigm: neg_poss_def
- -flex: <2><.>.<.>
-  gramm: act,ipv,2,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.էք<.>//<1><.>.իք<.>
-  gramm: act,ipv,2,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.իր<.>
-  gramm: mp,ipv,2,sg
-  paradigm: neg_poss_def
- -flex: <1><.>.արուք<.>//<1><.>.այք<.>
-  gramm: mp,ipv,2,pl
-  paradigm: neg_poss_def
- -flex: <1><.>.ջիր<.>
-  gramm: amp,aor_coh,2,sg
-  paradigm: neg_poss_def
-
-
-
--paradigm: V1.2.16
+-paradigm: V1.11
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -2181,7 +1967,7 @@
 
 
 
--paradigm: V1.2.17
+-paradigm: V1.12
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -2395,7 +2181,221 @@
 
 
 
--paradigm: V1.2.18
+-paradigm: V1.13
+ -flex: <0><.>.ել<.>//<0><.>.իլ<.>
+  gramm: inf
+  paradigm: inf_decl
+ -flex: <1><.>.եալ<.>
+  gramm: pfv
+  paradigm: ptcp_decl
+ -flex: <1><.>.ել<.>
+  gramm: pfv
+  paradigm: ptcp_decl_obl
+ -flex: <0><.>.ելոց<.>
+  gramm: fut
+  paradigm: ptcp_decl
+ -flex: <0><.>.եմ<.>
+  gramm: act,prs,1,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.ես<.>
+  gramm: act,prs,2,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.է<.>
+  gramm: act,prs,3,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.եմք<.>
+  gramm: act,prs,1,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.էք<.>
+  gramm: act,prs,2,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.են<.>
+  gramm: act,prs,3,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իմ<.>
+  gramm: mp,prs,1,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իս<.>
+  gramm: mp,prs,2,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.ի<.>
+  gramm: mp,prs,3,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իմք<.>
+  gramm: mp,prs,1,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իք<.>
+  gramm: mp,prs,2,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.ին<.>
+  gramm: mp,prs,3,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.եի<.>//<0><.>.էի<.>
+  gramm: amp,impf,1,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.եիր<.>//<0><.>.էիր<.>
+  gramm: amp,impf,2,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.էր<.>
+  gramm: amp,impf,3,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.եաք<.>//<0><.>.էաք<.>
+  gramm: amp,impf,1,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.եիք<.>//<0><.>.էիք<.>
+  gramm: amp,impf,2,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.եին<.>//<0><.>.էին<.>
+  gramm: amp,impf,3,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իւր<.>
+  gramm: mp,impf,3,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցեմ<.>
+  gramm: act,prs_sbj,1,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցես<.>
+  gramm: act,prs_sbj,2,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցէ<.>
+  gramm: act,prs_sbj,3,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցեմք<.>
+  gramm: act,prs_sbj,1,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցէք<.>
+  gramm: act,prs_sbj,2,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցեն<.>
+  gramm: act,prs_sbj,3,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցիմ<.>
+  gramm: mp,prs_sbj,1,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցիս<.>
+  gramm: mp,prs_sbj,2,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցի<.>
+  gramm: mp,prs_sbj,3,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցիմք<.>
+  gramm: mp,prs_sbj,1,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցիք<.>
+  gramm: mp,prs_sbj,2,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իցին<.>
+  gramm: mp,prs_sbj,3,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իջիր<.>
+  gramm: amp,prs_coh,2,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իջիք<.>
+  gramm: amp,prs_coh,2,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ի<.>
+  gramm: act,aor,1,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.եր<.>
+  gramm: act,aor,2,sg
+  paradigm: neg_poss_def
+ -flex: <2><.>.<.>//<3><.>.<.>
+  gramm: act,aor,3,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.աք<.>
+  gramm: act,aor,1,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.էք<.>//<1><.>.իք<.>
+  gramm: act,aor,2,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ին<.>
+  gramm: act,aor,3,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.այ<.>
+  gramm: mp,aor,1,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.ար<.>
+  gramm: mp,aor,2,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.աւ<.>
+  gramm: mp,aor,3,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.աք<.>
+  gramm: mp,aor,1,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.այք<.>
+  gramm: mp,aor,2,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ան<.>
+  gramm: mp,aor,3,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ից<.>
+  gramm: act,aor_sbj,1,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.ցես<.>
+  gramm: act,aor_sbj,2,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.ցէ<.>
+  gramm: act,aor_sbj,3,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.ցուք<.>
+  gramm: act,aor_sbj,1,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ջիք<.>
+  gramm: act,aor_sbj,2,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ցեն<.>
+  gramm: act,aor_sbj,3,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.այց<.>
+  gramm: mp,aor_sbj,1,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.ցիս<.>
+  gramm: mp,aor_sbj,2,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.ցի<.>
+  gramm: mp,aor_sbj,3,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.ցուք<.>
+  gramm: mp,aor_sbj,1,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ջիք<.>
+  gramm: mp,aor_sbj,2,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ցին<.>
+  gramm: mp,aor_sbj,3,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.եր<.>
+  gramm: act,proh,2,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.էք<.>
+  gramm: act,proh,2,pl
+  paradigm: neg_poss_def
+ -flex: <0><.>.իր<.>
+  gramm: mp,proh,2,sg
+  paradigm: neg_poss_def
+ -flex: <0><.>.իք<.>
+  gramm: mp,proh,2,pl
+  paradigm: neg_poss_def
+ -flex: <2><.>.<.>
+  gramm: act,ipv,2,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.էք<.>//<1><.>.իք<.>
+  gramm: act,ipv,2,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.իր<.>
+  gramm: mp,ipv,2,sg
+  paradigm: neg_poss_def
+ -flex: <1><.>.արուք<.>//<1><.>.այք<.>
+  gramm: mp,ipv,2,pl
+  paradigm: neg_poss_def
+ -flex: <1><.>.ջիր<.>
+  gramm: amp,aor_coh,2,sg
+  paradigm: neg_poss_def
+
+
+
+-paradigm: V1.14
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -2609,7 +2609,7 @@
 
 
 
--paradigm: V1.2.19
+-paradigm: V1.15
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -2823,7 +2823,7 @@
 
 
 
--paradigm: V1.2.2
+-paradigm: V1.6
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -3037,7 +3037,7 @@
 
 
 
--paradigm: V1.2.20
+-paradigm: V1.16
  -flex: <.>.ել<.>//<.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -3251,7 +3251,7 @@
 
 
 
--paradigm: V1.2.21
+-paradigm: V2.1
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -3465,7 +3465,7 @@
 
 
 
--paradigm: V1.2.22
+-paradigm: V2.2
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -3661,7 +3661,7 @@
 
 
 
--paradigm: V1.2.3
+-paradigm: V1.17
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -3875,7 +3875,7 @@
 
 
 
--paradigm: V1.2.4
+-paradigm: V1.18
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -4020,7 +4020,7 @@
 
 
 
--paradigm: V1.2.5
+-paradigm: V1.19
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -4192,7 +4192,7 @@
 
 
 
--paradigm: V1.2.6
+-paradigm: V1.20
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -4400,7 +4400,7 @@
 
 
 
--paradigm: V1.2.7
+-paradigm: V1.21
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -4608,7 +4608,7 @@
 
 
 
--paradigm: V1.2.8
+-paradigm: V1.22
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -4783,7 +4783,7 @@
 
 
 
--paradigm: V1.2.9
+-paradigm: V1.23
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -4991,7 +4991,7 @@
 
 
 
--paradigm: V1.3.1
+-paradigm: V1.24
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -5121,7 +5121,7 @@
 
 
 
--paradigm: V1.3.2
+-paradigm: V1.25
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -5293,7 +5293,7 @@
 
 
 
--paradigm: V1.3.3
+-paradigm: V1.26
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -5423,7 +5423,7 @@
 
 
 
--paradigm: V1.3.4
+-paradigm: V2.3
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -5595,7 +5595,7 @@
 
 
 
--paradigm: V1.3.5
+-paradigm: V1.27
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -5767,7 +5767,7 @@
 
 
 
--paradigm: V2.2.1
+-paradigm: V2.4
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -5933,7 +5933,7 @@
 
 
 
--paradigm: V2.2.2
+-paradigm: V2.5
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -6075,7 +6075,7 @@
 
 
 
--paradigm: V2.2.3
+-paradigm: V2.6
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -6205,7 +6205,7 @@
 
 
 
--paradigm: V2.2.4
+-paradigm: V2.7
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -6335,7 +6335,7 @@
 
 
 
--paradigm: V2.2.5
+-paradigm: V2.8
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -6477,7 +6477,7 @@
 
 
 
--paradigm: V2.2.6
+-paradigm: V2.9
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -6619,7 +6619,7 @@
 
 
 
--paradigm: V2.3.1
+-paradigm: V2.10
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -6755,7 +6755,7 @@
 
 
 
--paradigm: V2.3.2
+-paradigm: V2.11
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -6891,7 +6891,7 @@
 
 
 
--paradigm: V3.1.1
+-paradigm: V3.1
  -flex: <0><.>.ալ<.>
   gramm: inf
   paradigm: inf_decl
@@ -7078,7 +7078,7 @@
 
 
 
--paradigm: V3.1.2
+-paradigm: V3.2
  -flex: <0><.>.ալ<.>
   gramm: inf
   paradigm: inf_decl
@@ -7229,7 +7229,7 @@
 
 
 
--paradigm: V3.1.3
+-paradigm: V3.3
  -flex: <0><.>.ալ<.>
   gramm: inf
   paradigm: inf_decl
@@ -7416,7 +7416,7 @@
 
 
 
--paradigm: V3.2.1
+-paradigm: V3.4
  -flex: <0><.>.ալ<.>
   gramm: inf
   paradigm: inf_decl
@@ -7603,7 +7603,7 @@
 
 
 
--paradigm: V3.2.2
+-paradigm: V3.5
  -flex: <0><.>.ալ<.>
   gramm: inf
   paradigm: inf_decl
@@ -7784,7 +7784,7 @@
 
 
 
--paradigm: V3.2.3
+-paradigm: V3.6
  -flex: <0><.>.ալ<.>
   gramm: inf
   paradigm: inf_decl
@@ -7929,7 +7929,7 @@
 
 
 
--paradigm: V3.2.4
+-paradigm: V3.7
  -flex: <0><.>.ալ<.>
   gramm: inf
   paradigm: inf_decl
@@ -8056,7 +8056,7 @@
 
 
 
--paradigm: V3.2.5
+-paradigm: V3.8
  -flex: <0><.>.ալ<.>
   gramm: inf
   paradigm: inf_decl
@@ -8243,7 +8243,7 @@
 
 
 
--paradigm: V4.1.1
+-paradigm: V4.1
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -8367,7 +8367,7 @@
 
 
 
--paradigm: V4.1.2
+-paradigm: V4.2
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -8533,7 +8533,7 @@
 
 
 
--paradigm: V4.1.3
+-paradigm: V4.3
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -8693,7 +8693,7 @@
 
 
 
--paradigm: V4.1.4
+-paradigm: V4.4
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -8859,7 +8859,7 @@
 
 
 
--paradigm: V4.1.5
+-paradigm: V4.5
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -8983,7 +8983,7 @@
 
 
 
--paradigm: V4.1.6
+-paradigm: V4.6
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -9107,7 +9107,7 @@
 
 
 
--paradigm: V4.1.7
+-paradigm: V4.7
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -9273,7 +9273,7 @@
 
 
 
--paradigm: V4.2.1
+-paradigm: V4.8
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -9439,7 +9439,7 @@
 
 
 
--paradigm: V4.2.2
+-paradigm: V4.11
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -9605,7 +9605,7 @@
 
 
 
--paradigm: V4.2.3
+-paradigm: V4.14
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -9729,7 +9729,7 @@
 
 
 
--paradigm: V4.2.4
+-paradigm: V4.9
  -flex: <.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -9895,7 +9895,7 @@
 
 
 
--paradigm: V4.2.5
+-paradigm: V4.12
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -10061,7 +10061,7 @@
 
 
 
--paradigm: V4.2.6
+-paradigm: V4.13
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -10227,7 +10227,7 @@
 
 
 
--paradigm: V4.2.7
+-paradigm: V4.10
  -flex: <0><.>.ուլ<.>
   gramm: inf
   paradigm: inf_ul_decl_full
@@ -10393,7 +10393,7 @@
 
 
 
--paradigm: V4.3.1
+-paradigm: V4.15
  -flex: <0><.>.ել<.>//<0><.>.իլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -10514,7 +10514,7 @@
 
 
 
--paradigm: V5.0.1
+-paradigm: V5.1
  -flex: <.>.ոլ<.>
   gramm: inf
   paradigm: inf_decl
@@ -10551,7 +10551,7 @@
 
 
 
--paradigm: V5.0.2
+-paradigm: V5.2
  -flex: <.>.յարագոմ<.>
   gramm: act,prs,1,sg
   paradigm: neg_poss_def
@@ -10585,7 +10585,7 @@
 
 
 
--paradigm: V6.0.1
+-paradigm: V6.1
  -flex: <.>.ցես<.>
   gramm: act,aor_sbj,2,sg
   paradigm: neg_poss_def

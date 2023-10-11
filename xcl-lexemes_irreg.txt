@@ -179,7 +179,7 @@
  lex: գոգ
  stem: գոգ.
  gramm: V
- paradigm: V6.0.1
+ paradigm: V6.1
  trans_en: say
  trans_fr: dire
 
