@@ -39,7 +39,9 @@ pip-delete-this-directory.txt
 venv/
 ENV/
 uniparser_classical_armenian/data/*.cg3
+wordlist_schwa.csv
 wordlist_analyzed_schwa.txt
 wordlist_unanalyzed_schwa.txt
+wordlist_dia.csv
 wordlist_analyzed_dia.txt
 wordlist_unanalyzed_dia.txt
