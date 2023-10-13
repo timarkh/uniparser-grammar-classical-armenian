@@ -388,6 +388,36 @@
   gramm: pl,ins
  paradigm: prep
 
+-paradigm: N1.11
+ -flex: <0><.>.<.>
+  gramm: sg,nom
+ -flex: <0><.>.<.>
+  gramm: sg,acc
+ -flex: <1><.>.ոյ<.>
+  gramm: sg,gen
+ -flex: <1><.>.ոյ<.>
+  gramm: sg,dat
+ -flex: <1><.>.եան<.>
+  gramm: sg,loc
+ -flex: <1><.>.ոյ<.>
+  gramm: sg,abl
+ -flex: <1><.>.ով<.>
+  gramm: sg,ins
+ -flex: <0><.>.ք<.>
+  gramm: pl,nom
+ -flex: <0><.>.ս<.>
+  gramm: pl,acc
+ -flex: <1><.>.ոց<.>
+  gramm: pl,gen
+ -flex: <1><.>.ոց<.>
+  gramm: pl,dat
+ -flex: <0><.>.ս<.>
+  gramm: pl,loc
+ -flex: <1><.>.ոց<.>
+  gramm: pl,abl
+ -flex: <1><.>.ովք<.>
+  gramm: pl,ins
+ paradigm: prep
 
 -paradigm: N1.12
  -flex: <.>.ի<.>

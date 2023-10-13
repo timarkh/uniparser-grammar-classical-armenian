@@ -3,6 +3,7 @@
  stem: .ել.
  gramm: V,inf
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -11,6 +12,7 @@
  stem: .եմ.
  gramm: V,act,prs,1,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -19,6 +21,7 @@
  stem: .ես.
  gramm: V,act,prs,2,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -27,6 +30,7 @@
  stem: .է.
  gramm: V,act,prs,3,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -35,6 +39,7 @@
  stem: .եմք.
  gramm: V,act,prs,1,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -43,6 +48,7 @@
  stem: .էք.
  gramm: V,act,prs,2,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -51,6 +57,7 @@
  stem: .են.
  gramm: V,act,prs,3,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -59,6 +66,7 @@
  stem: .եի.//էի.
  gramm: V,amp,impf,1,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -67,6 +75,7 @@
  stem: .եիր.//էիր.
  gramm: V,amp,impf,2,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -75,6 +84,7 @@
  stem: .էր.
  gramm: V,amp,impf,3,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -83,6 +93,7 @@
  stem: .եաք.//էաք.
  gramm: V,amp,impf,1,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -91,6 +102,7 @@
  stem: .եիք.//էիք.
  gramm: V,amp,impf,2,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -99,6 +111,7 @@
  stem: .եին.//էին.
  gramm: V,amp,impf,3,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -107,6 +120,7 @@
  stem: .իւր.
  gramm: V,mp,impf,3,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -115,6 +129,7 @@
  stem: .իցեմ.
  gramm: V,act,prs_sbj,1,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -123,6 +138,7 @@
  stem: .իցես.
  gramm: V,act,prs_sbj,2,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -131,6 +147,7 @@
  stem: .իցէ.
  gramm: V,act,prs_sbj,3,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -139,6 +156,7 @@
  stem: .իցեմք.
  gramm: V,act,prs_sbj,1,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -147,6 +165,7 @@
  stem: .իցէք.
  gramm: V,act,prs_sbj,2,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -155,6 +174,7 @@
  stem: .իցեն.
  gramm: V,act,prs_sbj,3,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -163,6 +183,7 @@
  stem: .եր.
  gramm: V,act,ipv,2,sg
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 
@@ -171,6 +192,7 @@
  stem: .էք.
  gramm: V,act,ipv,2,pl
  paradigm: neg_poss_def
+ flextype: V1.1
  trans_en: be
  trans_fr: être
 

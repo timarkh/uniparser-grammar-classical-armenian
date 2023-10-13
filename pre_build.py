@@ -108,6 +108,61 @@ def process_schwa(a):
         fOut.write('\n'.join(lines))
 
 
+def process_diacritics(a):
+    """
+    Find unanalyzed words that contain a diacritic inside and try analyzing them
+    without the diacritic. Add the results to the list of analyzed words.
+    """
+    rxDia = re.compile('^(\\w+)[՜՞](\\w+)$')
+    unanalyzedDia = []
+    norm2dia = {}
+    freqDict = {}
+    with open('wordlists/wordlist_unanalyzed.txt', 'r', encoding='utf-8') as fIn:
+        for word in fIn:
+            word = word.strip()
+            if rxDia.search(word) is not None:
+                unanalyzedDia.append(word)
+    with open('wordlists/wordlist.csv', 'r', encoding='utf-8') as fIn:
+        for line in fIn:
+            word, freq = line.strip().split('\t')
+            freqDict[word] = freq
+    with open('wordlists/wordlist_dia.csv', 'w', encoding='utf-8') as fOut:
+        for word in unanalyzedDia:
+            wordNorm = rxDia.sub('\\1\\2', word)
+            if wordNorm not in norm2dia:
+                norm2dia[wordNorm] = [word]
+                fOut.write(wordNorm
+                           + '\t' + freqDict[word] + '\n')
+            else:
+                norm2dia[wordNorm].append(word)
+    print('Processing schwa words...')
+    a.analyze_wordlist(freqListFile='wordlists/wordlist_dia.csv',
+                       parsedFile='wordlists/wordlist_analyzed_dia.txt',
+                       unparsedFile='wordlists/wordlist_unanalyzed_dia.txt',
+                       verbose=True)
+    analyzedDia = set()
+    with open('wordlists/wordlist_analyzed_dia.txt', 'r', encoding='utf-8') as fIn:
+        lines = '\n'
+        for line in fIn:
+            m = re.search('^(.*>)([^<>\r\n]+)</w>', line)
+            if m is None:
+                continue
+            wordNorm = m.group(2)
+            for word in norm2dia[wordNorm]:
+                analyzedDia.add(word)
+                lines += m.group(1) + word + '</w>\n'
+    with open('wordlists/wordlist_analyzed.txt', 'a', encoding='utf-8') as fOut:
+        fOut.write(lines)
+    lines = []
+    with open('wordlists/wordlist_unanalyzed.txt', 'r', encoding='utf-8') as fIn:
+        for line in fIn:
+            line = line.strip()
+            if line not in analyzedDia:
+                lines.append(line)
+    with open('wordlists/wordlist_unanalyzed.txt', 'w', encoding='utf-8') as fOut:
+        fOut.write('\n'.join(lines))
+
+
 def parse_wordlists():
     """
     Analyze wordlists/wordlist.csv.
@@ -124,6 +179,7 @@ def parse_wordlists():
                        parsedFile='wordlists/wordlist_analyzed.txt',
                        unparsedFile='wordlists/wordlist_unanalyzed.txt',
                        verbose=True)
+    process_diacritics(a)
     process_schwa(a)
 
 
