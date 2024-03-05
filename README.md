@@ -1,5 +1,5 @@
 # Classical Armenian morphological analyzer
-This is a rule-based morphological analyzer for Classical Eastern Armenian. It is based on a formalized description of literary Classical Armenian morphology and uses [uniparser-morph](https://github.com/timarkh/uniparser-morph) for parsing. It performs full morphological analysis of Classical Armenian words (lemmatization, POS tagging, grammatical tagging, glossing).
+This is a rule-based morphological analyzer for Classical Armenian (``xcl``). It is based on a formalized description of literary Classical Armenian morphology and uses [uniparser-morph](https://github.com/timarkh/uniparser-morph) for parsing. It performs full morphological analysis of Classical Armenian words (lemmatization, POS tagging, grammatical tagging, glossing).
 
 ## How to use
 ### Python package
@@ -12,10 +12,10 @@ pip3 install uniparser-classical-armenian
 Import the module and create an instance of ``ClassicalArmenianAnalyzer`` class. After that, you can either parse tokens or lists of tokens with ``analyze_words()``, or parse a frequency list with ``analyze_wordlist()``. Here is a simple example:
 
 ```python
-from uniparser_eastern_armenian import EasternArmenianAnalyzer
+from uniparser_eastern_armenian import ClassicalArmenianAnalyzer
 a = ClassicalArmenianAnalyzer()
 
-analyses = a.analyze_words('Ձևաբանություն')
+analyses = a.analyze_words('զՔրիստոսի')
 # The parser is initialized before first use, so expect
 # some delay here (usually several seconds)
 
@@ -29,9 +29,9 @@ for ana in analyses:
 # output format ('xml' or 'json')
 # If you pass a list, you will get a list of analyses
 # with the same structure
-analyses = a.analyze_words([['և'], ['Ես', 'սիրում', 'եմ', 'քեզ', ':']],
+analyses = a.analyze_words([['եւ'], ['Սիրեմ', 'զքեզ', ':']],
 	                       format='xml')
-analyses = a.analyze_words(['Ձևաբանություն', [['և'], ['Ես', 'սիրում', 'եմ', 'քեզ', ':']]],
+analyses = a.analyze_words(['զՔրիստոսի', [['եւ'], ['Սիրեմ', 'զքեզ', ':']]],
 	                       format='json')
 ```
 
