@@ -2,6 +2,10 @@
  -flex: .
   gramm: 
 
+
+
+# **********  COMMON PREFIXES AND SUFFIXES  **********
+
 -paradigm: poss_def
  -flex: .
   gramm: 
@@ -39,7 +43,11 @@
   gramm: LEX:ց:PREP;trans_en=up to;trans_fr=jusqu'à
   regex-gramm: .*\bacc.*
  paradigm: poss_def
- 
+
+
+
+
+# **********  NOUNS  **********
 
 -paradigm: N1.1
  -flex: <0><.>.<.>
@@ -319,7 +327,6 @@
  paradigm: prep
 
 
-
 -paradigm: N1.9
  -flex: <.>.<.>
   gramm: sg,nom
@@ -339,6 +346,38 @@
 
 
 -paradigm: N1.10
+ -flex: <0><.>.<.>
+  gramm: sg,nom
+ -flex: <0><.>.<.>
+  gramm: sg,acc
+ -flex: <1><.>.ոյ<.>
+  gramm: sg,gen
+ -flex: <1><.>.ում<.>
+  gramm: sg,dat
+ -flex: <1><.>.ում<.>
+  gramm: sg,loc
+ -flex: <1><.>.մէ<.>
+  gramm: sg,abl
+ -flex: <1><.>.ով<.>
+  gramm: sg,ins
+ -flex: <0><.>.ք<.>
+  gramm: pl,nom
+ -flex: <0><.>.ս<.>
+  gramm: pl,acc
+ -flex: <1><.>.ոց<.>
+  gramm: pl,gen
+ -flex: <1><.>.ոց<.>
+  gramm: pl,dat
+ -flex: <0><.>.ս<.>
+  gramm: pl,loc
+ -flex: <1><.>.ոց<.>
+  gramm: pl,abl
+ -flex: <1><.>.ովք<.>
+  gramm: pl,ins
+ paradigm: prep
+
+
+-paradigm: N1.10_ptcp
  -flex: <.>.<.>
   gramm: sg,nom
  -flex: <.>.<.>
@@ -369,7 +408,7 @@
   gramm: pl,ins
  paradigm: prep
 
--paradigm: N1.10_obl
+-paradigm: N1.10_ptcp_obl
  -flex: <.>.ոյ<.>
   gramm: sg,gen
  -flex: <.>.ում<.>
@@ -387,6 +426,7 @@
  -flex: <.>.ովք<.>
   gramm: pl,ins
  paradigm: prep
+
 
 -paradigm: N1.11
  -flex: <0><.>.<.>
@@ -720,36 +760,6 @@
   gramm: pl,ins
  paradigm: prep
 
--paradigm: N1.21
- -flex: <0><.>.<.>
-  gramm: sg,nom
- -flex: <0><.>.<.>
-  gramm: sg,acc
- -flex: <1><.>.ոյ<.>
-  gramm: sg,gen
- -flex: <1><.>.ում<.>
-  gramm: sg,dat
- -flex: <1><.>.ում<.>
-  gramm: sg,loc
- -flex: <1><.>.մէ<.>
-  gramm: sg,abl
- -flex: <1><.>.ով<.>
-  gramm: sg,ins
- -flex: <0><.>.ք<.>
-  gramm: pl,nom
- -flex: <0><.>.ս<.>
-  gramm: pl,acc
- -flex: <1><.>.ոց<.>
-  gramm: pl,gen
- -flex: <1><.>.ոց<.>
-  gramm: pl,dat
- -flex: <0><.>.ս<.>
-  gramm: pl,loc
- -flex: <1><.>.ոց<.>
-  gramm: pl,abl
- -flex: <1><.>.ովք<.>
-  gramm: pl,ins
- paradigm: prep
 
 -paradigm: N1.22
  -flex: <.>.<.>
@@ -2427,7 +2437,7 @@
 
 
 
-
+# **********  PRONOUNS  **********
 
 -paradigm: P3
  -flex: <0><.>.<.>
@@ -2462,7 +2472,7 @@
 
 
 
--paradigm: P4
+-paradigm: P3a
  -flex: <0><.>.<.>
   gramm: sg,nom
  -flex: <0><.>.<.>
@@ -2494,7 +2504,7 @@
  paradigm: prep
 
 
--paradigm: P10
+-paradigm: P9
  -flex: <.>.<.>
   gramm: sg,nom
  -flex: <.>.<.>
@@ -2525,7 +2535,7 @@
   gramm: pl,ins
  paradigm: prep
 
--paradigm: P13
+-paradigm: P12
  -flex: <0><.>.<.>
   gramm: sg,nom
  -flex: <0><.>.<.>

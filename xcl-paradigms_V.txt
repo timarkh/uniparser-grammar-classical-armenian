@@ -31,14 +31,14 @@
   gramm: 
  -flex: <.>չ.<.>
   gramm: neg
- paradigm: N1.10
+ paradigm: N1.10_ptcp
 
 -paradigm: ptcp_decl_obl
  -flex: <.>.<.>
   gramm: 
  -flex: <.>չ.<.>
   gramm: neg
- paradigm: N1.10_obl
+ paradigm: N1.10_ptcp_obl
 
 
 -paradigm: V1.2

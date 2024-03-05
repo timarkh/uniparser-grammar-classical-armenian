@@ -220,6 +220,7 @@
  stem: .ես.
  gramm: PRON,1,sg,nom
  paradigm: prep_pro
+ flextype: P1
  trans_en: I
  trans_fr: je, moi
 
@@ -228,6 +229,7 @@
  stem: .իս.
  gramm: PRON,1,sg,acc
  paradigm: prep_pro
+ flextype: P1_sg
  trans_en: I
  trans_fr: je, moi
 
@@ -236,6 +238,7 @@
  stem: .իմ.
  gramm: PRON,1,sg,gen
  paradigm: prep_pro
+ flextype: P1_sg
  trans_en: I
  trans_fr: je, moi
 
@@ -244,6 +247,7 @@
  stem: .ինձ.
  gramm: PRON,1,sg,dat
  paradigm: prep_pro
+ flextype: P1_sg
  trans_en: I
  trans_fr: je, moi
 
@@ -252,6 +256,7 @@
  stem: .ինձ.
  gramm: PRON,1,sg,loc
  paradigm: prep_pro
+ flextype: P1_sg
  trans_en: I
  trans_fr: je, moi
 
@@ -260,6 +265,7 @@
  stem: .ինէն.
  gramm: PRON,1,sg,abl
  paradigm: prep_pro
+ flextype: P1_sg
  trans_en: I
  trans_fr: je, moi
 
@@ -268,6 +274,7 @@
  stem: .ինեւ.//.ինև.
  gramm: PRON,1,sg,ins
  paradigm: prep_pro
+ flextype: P1_sg
  trans_en: I
  trans_fr: je, moi
 
@@ -276,6 +283,7 @@
  stem: .մեք.
  gramm: PRON,1,pl,nom
  paradigm: prep_pro
+ flextype: P1_pl
  trans_en: we
  trans_fr: nous
 
@@ -284,6 +292,7 @@
  stem: .մեզ.
  gramm: PRON,1,pl,acc
  paradigm: prep_pro
+ flextype: P1_pl
  trans_en: we
  trans_fr: nous
 
@@ -292,6 +301,7 @@
  stem: .մեր.
  gramm: PRON,1,pl,gen
  paradigm: prep_pro
+ flextype: P1_pl
  trans_en: we
  trans_fr: nous
 
@@ -300,6 +310,7 @@
  stem: .մեզ.
  gramm: PRON,1,pl,dat
  paradigm: prep_pro
+ flextype: P1_pl
  trans_en: we
  trans_fr: nous
 
@@ -308,6 +319,7 @@
  stem: .մեզ.
  gramm: PRON,1,pl,loc
  paradigm: prep_pro
+ flextype: P1_pl
  trans_en: we
  trans_fr: nous
 
@@ -316,6 +328,7 @@
  stem: .մէնջ.
  gramm: PRON,1,pl,abl
  paradigm: prep_pro
+ flextype: P1_pl
  trans_en: we
  trans_fr: nous
 
@@ -324,6 +337,7 @@
  stem: .մեւք.//.մևք.//.մեաւք.
  gramm: PRON,1,pl,ins
  paradigm: prep_pro
+ flextype: P1_pl
  trans_en: we
  trans_fr: nous
 
@@ -334,6 +348,7 @@
  stem: .դու.
  gramm: PRON,2,sg,nom
  paradigm: prep_pro
+ flextype: P2_sg
  trans_en: you, thou
  trans_fr: tu, toi
 
@@ -342,6 +357,7 @@
  stem: .քեզ.
  gramm: PRON,2,sg,acc
  paradigm: prep_pro
+ flextype: P2_sg
  trans_en: you, thou
  trans_fr: tu, toi
 
@@ -350,6 +366,7 @@
  stem: .քո.
  gramm: PRON,2,sg,gen
  paradigm: prep_pro
+ flextype: P2_sg
  trans_en: you, thou
  trans_fr: tu, toi
 
@@ -358,6 +375,7 @@
  stem: .քեզ.
  gramm: PRON,2,sg,dat
  paradigm: prep_pro
+ flextype: P2_sg
  trans_en: you, thou
  trans_fr: tu, toi
 
@@ -366,6 +384,7 @@
  stem: .քեզ.
  gramm: PRON,2,sg,loc
  paradigm: prep_pro
+ flextype: P2_sg
  trans_en: you, thou
  trans_fr: tu, toi
 
@@ -374,6 +393,7 @@
  stem: .քէն.
  gramm: PRON,2,sg,abl
  paradigm: prep_pro
+ flextype: P2_sg
  trans_en: you, thou
  trans_fr: tu, toi
 
@@ -382,6 +402,7 @@
  stem: .քեւ.//.քև.
  gramm: PRON,2,sg,ins
  paradigm: prep_pro
+ flextype: P2_sg
  trans_en: you, thou
  trans_fr: tu, toi
 
@@ -390,6 +411,7 @@
  stem: .դուք.
  gramm: PRON,2,pl,nom
  paradigm: prep_pro
+ flextype: P2_pl
  trans_en: you
  trans_fr: vous
 
@@ -398,6 +420,7 @@
  stem: .ձեզ.
  gramm: PRON,2,pl,acc
  paradigm: prep_pro
+ flextype: P2_pl
  trans_en: you
  trans_fr: vous
 
@@ -406,6 +429,7 @@
  stem: .ձեր.
  gramm: PRON,2,pl,gen
  paradigm: prep_pro
+ flextype: P2_pl
  trans_en: you
  trans_fr: vous
 
@@ -414,6 +438,7 @@
  stem: .ձեզ.
  gramm: PRON,2,pl,dat
  paradigm: prep_pro
+ flextype: P2_pl
  trans_en: you
  trans_fr: vous
 
@@ -422,6 +447,7 @@
  stem: .ձեզ.
  gramm: PRON,2,pl,loc
  paradigm: prep_pro
+ flextype: P2_pl
  trans_en: you
  trans_fr: vous
 
@@ -430,6 +456,7 @@
  stem: .ձէնջ.
  gramm: PRON,2,pl,abl
  paradigm: prep_pro
+ flextype: P2_pl
  trans_en: you
  trans_fr: vous
 
@@ -438,6 +465,7 @@
  stem: .ձեւք.//.ձևք.//.ձեաւք.
  gramm: PRON,2,pl,ins
  paradigm: prep_pro
+ flextype: P2_pl
  trans_en: you
  trans_fr: vous
 
@@ -449,6 +477,7 @@
  stem: .ոք.
  gramm: PRON,sg,nom
  paradigm: prep_pro
+ flextype: P4
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
@@ -457,6 +486,7 @@
  stem: .ոք.
  gramm: PRON,sg,acc
  paradigm: prep_pro
+ flextype: P4
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
@@ -465,6 +495,7 @@
  stem: .ուրուք.
  gramm: PRON,sg,gen
  paradigm: prep_pro
+ flextype: P4
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
@@ -473,6 +504,7 @@
  stem: .ումեք.
  gramm: PRON,sg,dat
  paradigm: prep_pro
+ flextype: P4
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
@@ -481,6 +513,7 @@
  stem: .ումեք.
  gramm: PRON,sg,loc
  paradigm: prep_pro
+ flextype: P4
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
@@ -489,6 +522,7 @@
  stem: .ումեքէ.
  gramm: PRON,sg,abl
  paradigm: prep_pro
+ flextype: P4
  trans_en: someone, anyone
  trans_fr: quelqu'un, personne
 
@@ -502,6 +536,7 @@
  stem: .ոմն.
  gramm: PRON,sg,nom
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -510,6 +545,7 @@
  stem: .ոմն.
  gramm: PRON,sg,acc
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -518,6 +554,7 @@
  stem: .ուրումն.
  gramm: PRON,sg,gen
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -526,6 +563,7 @@
  stem: .ումեմն.
  gramm: PRON,sg,dat
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -534,6 +572,7 @@
  stem: .ումեմն.
  gramm: PRON,sg,loc
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -542,6 +581,7 @@
  stem: .ումեմնէ.
  gramm: PRON,sg,abl
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -550,6 +590,7 @@
  stem: .ոմամբ.
  gramm: PRON,sg,ins
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -558,6 +599,7 @@
  stem: .ոմանք.
  gramm: PRON,pl,nom
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -566,6 +608,7 @@
  stem: .ոմանս.
  gramm: PRON,pl,acc
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -574,6 +617,7 @@
  stem: .ոմանց.
  gramm: PRON,pl,gen
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -582,6 +626,7 @@
  stem: .ոմանց.
  gramm: PRON,pl,dat
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -590,6 +635,7 @@
  stem: .ոմանս.
  gramm: PRON,pl,loc
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -598,6 +644,7 @@
  stem: .ոմանց.
  gramm: PRON,pl,abl
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -606,6 +653,7 @@
  stem: .ոմամբք.
  gramm: PRON,pl,ins
  paradigm: prep_pro
+ flextype: P5
  trans_en: some, certain
  trans_fr: quelqu'un, certain, un
 
@@ -619,6 +667,7 @@
  stem: .ինչ.
  gramm: PRON,sg,nom
  paradigm: prep_pro
+ flextype: P6
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
@@ -627,6 +676,7 @@
  stem: .ինչ.
  gramm: PRON,sg,acc
  paradigm: prep_pro
+ flextype: P6
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
@@ -635,6 +685,7 @@
  stem: .իրիք.
  gramm: PRON,sg,gen
  paradigm: prep_pro
+ flextype: P6
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
@@ -643,6 +694,7 @@
  stem: .իմիք.
  gramm: PRON,sg,dat
  paradigm: prep_pro
+ flextype: P6
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
@@ -651,6 +703,7 @@
  stem: .իմիք.
  gramm: PRON,sg,loc
  paradigm: prep_pro
+ flextype: P6
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
@@ -659,6 +712,7 @@
  stem: .իմեքէ.
  gramm: PRON,sg,abl
  paradigm: prep_pro
+ flextype: P6
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
@@ -667,6 +721,7 @@
  stem: .իւիք.
  gramm: PRON,sg,ins
  paradigm: prep_pro
+ flextype: P6
  trans_en: thing; something
  trans_fr: chose; quelque chose
 
@@ -680,6 +735,7 @@
  stem: .իմն.
  gramm: PRON,sg,nom
  paradigm: prep_pro
+ flextype: P7
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
@@ -688,6 +744,7 @@
  stem: .իմն.
  gramm: PRON,sg,acc
  paradigm: prep_pro
+ flextype: P7
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
@@ -696,6 +753,7 @@
  stem: .իմեմն.
  gramm: PRON,sg,dat
  paradigm: prep_pro
+ flextype: P7
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
@@ -704,6 +762,7 @@
  stem: .իմեմն.
  gramm: PRON,sg,loc
  paradigm: prep_pro
+ flextype: P7
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
@@ -712,6 +771,7 @@
  stem: .իմեմնէ.
  gramm: PRON,sg,abl
  paradigm: prep_pro
+ flextype: P7
  trans_en: some; somewhat
  trans_fr: quelque; quelque chose
 
@@ -725,6 +785,7 @@
  stem: .ո.//.ով.
  gramm: PRON,sg,nom
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -733,6 +794,7 @@
  stem: .ո.//.ով.
  gramm: PRON,sg,acc
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -741,6 +803,7 @@
  stem: .ոյր.
  gramm: PRON,sg,gen
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -749,6 +812,7 @@
  stem: .ում.
  gramm: PRON,sg,dat
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -757,6 +821,7 @@
  stem: .ում.
  gramm: PRON,sg,loc
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -765,6 +830,7 @@
  stem: .ումէ.
  gramm: PRON,sg,abl
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -773,6 +839,7 @@
  stem: .ոյք.
  gramm: PRON,pl,nom
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -781,6 +848,7 @@
  stem: .ոյս.
  gramm: PRON,pl,acc
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -789,6 +857,7 @@
  stem: .ոյց.
  gramm: PRON,pl,gen
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -797,6 +866,7 @@
  stem: .ոյց.
  gramm: PRON,pl,dat
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -805,6 +875,7 @@
  stem: .ոյս.
  gramm: PRON,pl,loc
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -813,6 +884,7 @@
  stem: .ոյց.
  gramm: PRON,pl,abl
  paradigm: prep_pro
+ flextype: P8
  trans_en: who
  trans_fr: qui
 
@@ -826,6 +898,7 @@
  stem: .իւր.
  gramm: PRON,sg,nom
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -834,6 +907,7 @@
  stem: .իւր.
  gramm: PRON,sg,acc
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -842,6 +916,7 @@
  stem: .իւր.
  gramm: PRON,sg,gen
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -850,6 +925,7 @@
  stem: .իւր.
  gramm: PRON,sg,dat
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -858,6 +934,7 @@
  stem: .իւր.
  gramm: PRON,sg,loc
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -866,6 +943,7 @@
  stem: .իւրմէ.
  gramm: PRON,sg,abl
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -874,6 +952,7 @@
  stem: .իւրև.//.իւրեւ.//.իւրեաւ.//.իւրեամբ.
  gramm: PRON,sg,ins
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -882,6 +961,7 @@
  stem: .իւրեանք.
  gramm: PRON,pl,nom
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -890,6 +970,7 @@
  stem: .իւրեանս.
  gramm: PRON,pl,acc
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -898,6 +979,7 @@
  stem: .իւրեանց.
  gramm: PRON,pl,gen
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -906,6 +988,7 @@
  stem: .իւրեանց.
  gramm: PRON,pl,dat
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -914,6 +997,7 @@
  stem: .իւրեանս.
  gramm: PRON,pl,loc
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -922,6 +1006,7 @@
  stem: .իւրեանց.
  gramm: PRON,pl,abl
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -930,6 +1015,7 @@
  stem: .իւրեամբք.
  gramm: PRON,pl,ins
  paradigm: prep_pro
+ flextype: P10
  trans_en: his, her, their own
  trans_fr: son, sa, ses
 
@@ -941,6 +1027,7 @@
  stem: .զի.//.զինչ.
  gramm: PRON,sg,nom
  paradigm: prep_pro
+ flextype: P11
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
@@ -949,6 +1036,7 @@
  stem: .զի.//.զինչ.
  gramm: PRON,sg,acc
  paradigm: prep_pro
+ flextype: P11
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
@@ -957,6 +1045,7 @@
  stem: .էր.
  gramm: PRON,sg,gen
  paradigm: prep_pro
+ flextype: P11
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
@@ -965,6 +1054,7 @@
  stem: .իմ.//.հիմ.
  gramm: PRON,sg,dat
  paradigm: prep_pro
+ flextype: P11
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
@@ -973,14 +1063,16 @@
  stem: .իմ.//.հիմ.
  gramm: PRON,sg,loc
  paradigm: prep_pro
+ flextype: P11
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
 -lexeme
  lex: զինչ
- stem: .իմէ.//.զմէ.//...մէ.
+ stem: .իմէ.//.զմէ.//.մէ.
  gramm: PRON,sg,abl
  paradigm: prep_pro
+ flextype: P11
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
 
@@ -989,5 +1081,6 @@
  stem: .իւ.
  gramm: PRON,sg,ins
  paradigm: prep_pro
+ flextype: P11
  trans_en: who? which? what?
  trans_fr: qui? quoi? lequel? laquelle?
