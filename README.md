@@ -12,7 +12,7 @@ pip3 install uniparser-classical-armenian
 Import the module and create an instance of ``ClassicalArmenianAnalyzer`` class. After that, you can either parse tokens or lists of tokens with ``analyze_words()``, or parse a frequency list with ``analyze_wordlist()``. Here is a simple example:
 
 ```python
-from uniparser_eastern_armenian import ClassicalArmenianAnalyzer
+from uniparser_classical_armenian import ClassicalArmenianAnalyzer
 a = ClassicalArmenianAnalyzer()
 
 analyses = a.analyze_words('զՔրիստոսի')
